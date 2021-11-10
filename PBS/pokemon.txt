@@ -11643,10 +11643,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> af0bf782 (Sprites update)
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -11679,10 +11683,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> af0bf782 (Sprites update)
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = VIBRAVA,Level,35
@@ -26818,6 +26826,7 @@ Pokedex = Because of its sweet, delicious aroma, bird Pokémon are always after 
 WildItemUncommon = GRASSYSEED
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -26826,6 +26835,11 @@ BattlerPlayerY = 30
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> af0bf782 (Sprites update)
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = STEENEE,Level,18
