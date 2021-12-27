@@ -1016,10 +1016,14 @@ Evolutions =
 #-------------------------------
 [29]
 <<<<<<< HEAD
+<<<<<<< HEAD
 Name = NIDORAN♀
 =======
 Name = NIDORAN}
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+Name = NIDORAN♀
+>>>>>>> b06af9f2 (Added and positioned rematch icon for Trainers in Pokégear; fixed Nidorans gender icons in names; fixed teleport event on Route 29)
 InternalName = NIDORANfE
 Type1 = POISON
 BaseStats = 55,47,52,41,40,40
@@ -1135,10 +1139,14 @@ Evolutions =
 #-------------------------------
 [32]
 <<<<<<< HEAD
+<<<<<<< HEAD
 Name = NIDORAN♂
 =======
 Name = NIDORAN{
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+Name = NIDORAN♂
+>>>>>>> b06af9f2 (Added and positioned rematch icon for Trainers in Pokégear; fixed Nidorans gender icons in names; fixed teleport event on Route 29)
 InternalName = NIDORANmA
 Type1 = POISON
 BaseStats = 46,57,40,50,40,40
