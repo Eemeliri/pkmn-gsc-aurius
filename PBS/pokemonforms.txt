@@ -483,9 +483,12 @@ Moves = 1,TACKLE,1,CURSE,3,GROWL,6,ACID,9,YAWN,12,CONFUSION,15,DISABLE,18,WATERP
 EggMoves = BELCH,BELLYDRUM,BLOCK,STOMP
 Pokedex = Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 BattlerEnemyY = 4
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 Evolutions = SLOWKING,Item,GALARICAWREATH,SLOWKING,Item,GALARICAWREATH
 #-------------------------------
 [SLOWBRO,1]
@@ -581,11 +584,15 @@ Moves = 1,GROWL,1,TAILWHIP,1,BONECLUB,1,FLAMEWHEEL,3,TAILWHIP,7,BONECLUB,11,FLAM
 Weight = 34.0
 Color = Purple
 <<<<<<< HEAD
+<<<<<<< HEAD
 Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.
 =======
 Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [WEEZING,1]
 FormName = Galarian
@@ -598,9 +605,12 @@ Weight = 16.0
 Color = Gray
 Pokedex = Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 BattlerEnemyY = 4
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [KANGASKHAN,1]
 FormName = Mega Kangaskhan
@@ -1468,11 +1478,14 @@ Type2 = FLYING
 Height = 1.7
 Weight = 43.4
 <<<<<<< HEAD
+<<<<<<< HEAD
 #-------------------------------
 =======
 >>>>>>> 9c5e5fa3 (Initial commit)
 =======
 BattlerEnemyY = 4
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 >>>>>>> 0caa9fdf (More updates)
 [TORNADUS,1]
@@ -1522,9 +1535,12 @@ Moves = 1,DRAGONBREATH,1,NOBLEROAR,1,ANCIENTPOWER,1,FREEZEDRY,8,SLASH,16,ENDEAVO
 Height = 3.3
 Pokedex = It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 BattlerEnemyY = 4
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [KYUREM,3]
 PokedexForm = 1
@@ -1843,9 +1859,12 @@ Weight = 490.0
 Shape = 6
 BattlerPlayerY = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 BattlerEnemyY = 4
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [ORICORIO,1]
 FormName = Pom-Pom Style
@@ -1908,9 +1927,12 @@ Weight = 78.6
 Shape = 11
 Pokedex = Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 BattlerEnemyY = 4
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [SILVALLY,1]
 FormName = Type: Fighting
@@ -2373,248 +2395,191 @@ BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,2]
 FormName = Love - Vanilla Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,3]
 FormName = Star - Vanilla Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,4]
 FormName = Clover - Vanilla Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,5]
 FormName = Flower - Vanilla Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,6]
 FormName = Ribbon - Vanilla Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,7]
 FormName = Strawberry - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,8]
 FormName = Berry - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,9]
 FormName = Love - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,10]
 FormName = Star - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,11]
 FormName = Clover - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,12]
 FormName = Flower - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,13]
 FormName = Ribbon - Ruby Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,14]
 FormName = Strawberry - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,15]
 FormName = Berry - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,16]
 FormName = Love - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,17]
 FormName = Star - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,18]
 FormName = Clover - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,19]
 FormName = Flower - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,20]
 FormName = Ribbon - Matcha Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,21]
 FormName = Strawberry - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,22]
 FormName = Berry - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,23]
 FormName = Love - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,24]
 FormName = Star - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,25]
 FormName = Clover - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,26]
 FormName = Flower - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,27]
 FormName = Ribbon - Mint Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,28]
 FormName = Strawberry - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,29]
 FormName = Berry - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,30]
 FormName = Love - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,31]
 FormName = Star - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,32]
 FormName = Clover - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,33]
 FormName = Flower - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,34]
 FormName = Ribbon - Lemon Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,35]
 FormName = Strawberry - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,36]
 FormName = Berry - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,37]
 FormName = Love - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,38]
 FormName = Star - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,39]
 FormName = Clover - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,40]
 FormName = Flower - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,41]
 FormName = Ribbon - Salted Cream
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,42]
 FormName = Strawberry - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,43]
 FormName = Berry - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,44]
 FormName = Love - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,45]
 FormName = Star - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,46]
 FormName = Clover - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,47]
 FormName = Flower - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,48]
 FormName = Ribbon - Ruby Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,49]
 FormName = Strawberry - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,50]
 FormName = Berry - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,51]
 FormName = Love - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,52]
 FormName = Star - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,53]
 FormName = Clover - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,54]
 FormName = Flower - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,55]
 FormName = Ribbon - Caramel Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,56]
 FormName = Strawberry - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,57]
 FormName = Berry - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,58]
 FormName = Love - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,59]
 FormName = Star - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,60]
 FormName = Clover - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,61]
 FormName = Flower - Rainbow Swirl
-BattlerEnemyY = 8
 #-------------------------------
 [ALCREMIE,62]
 FormName = Ribbon - Rainbow Swirl
+<<<<<<< HEAD
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [EISCUE,1]
 FormName = Noice Face
