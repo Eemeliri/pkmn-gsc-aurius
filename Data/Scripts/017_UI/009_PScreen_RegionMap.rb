@@ -156,7 +156,7 @@ class PokemonRegionMap_Scene
         @sprites["mapcursor"].x = -SQUAREWIDTH/2+(@mapX*SQUAREWIDTH)+(Graphics.width-@sprites["map"].bitmap.width)/2
         @sprites["mapcursor"].y = -SQUAREHEIGHT/2+(@mapY*SQUAREHEIGHT)+(Graphics.height-@sprites["map"].bitmap.height)/2
         #@sprites["mapcursor"].visible = false
-        townmapdata = @mapdata[@region][2]
+        townmapdata = @mapdata[@mapindex][2]
         i=0
         for loc in townmapdata
             if loc[0] == @mapX && loc[1] == @mapY
@@ -179,7 +179,7 @@ class PokemonRegionMap_Scene
     end
     
     def pbGetHealingSpot(x,y)
-        townmapdata = @mapdata[@region][2]
+        townmapdata = @mapdata[@mapindex][2]
         return nil if !townmapdata
         for loc in townmapdata
         if loc[0]==x && loc[1]==y
@@ -193,7 +193,7 @@ class PokemonRegionMap_Scene
         return nil
     end
     def pbChangeMap(sum)
-        townmapdata = @mapdata[@region][2]
+        townmapdata = @mapdata[@mapindex][2]
         @map_idx += sum
         @map_idx = 0 if @map_idx >= townmapdata.length
         @map_idx = townmapdata.length-1 if @map_idx <0

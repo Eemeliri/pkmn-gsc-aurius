@@ -413,7 +413,7 @@ class PokemonBoxSprite < SpriteWrapper
       pbSetSystemFont(@contents)
       widthval = @contents.text_size(boxname).width
       xval = 100-(widthval/2)
-      pbDrawShadowText(@contents,xval,-11,widthval,32,boxname,Color.new(0,0,0),Color.new(255,255,255,0))
+      pbDrawShadowText(@contents,xval,-4,widthval,32,boxname,Color.new(0,0,0),Color.new(255,255,255,0))
       @refreshBox = false
     end
     yval = self.y+32 #30
