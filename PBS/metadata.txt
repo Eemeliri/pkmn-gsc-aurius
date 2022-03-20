@@ -1,27 +1,15 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [000]
-<<<<<<< HEAD
+BicycleBGM = Bicycle.ogg
+SurfBGM = Surf.ogg
 PlayerB = POKEMONTRAINER_Crystal,trchar001,Crystal-onbike,PKMN-SURF_B,girl_run,PKMN-SURF_B,Crystal-fishing,Crystal-fishing
 PlayerA = POKEMONTRAINER_Gold,trchar000,Gold-onbike,PKMN-SURF_A,boy_run,PKMN-SURF_A,Gold-fishing,Gold-fishing
-WildVictoryME = Wild Defeated.ogg
-WildBattleBGM = VS Wild.ogg
-SurfBGM = Surf.ogg
-BicycleBGM = Bicycle.ogg
-TrainerVictoryME = Trainer Defeated.ogg
 Home = 3,13,8,8
-TrainerBattleBGM = VS Trainer.ogg
-=======
-PlayerA = POKEMONTRAINER_Gold,trchar000,Gold-onbike,PKMN-SURF_A,boy_run,PKMN-SURF_A,Gold-fishing,Gold-fishing
-PlayerB = POKEMONTRAINER_Crystal,trchar001,Crystal-onbike,PKMN-SURF_B,girl_run,PKMN-SURF_B,Crystal-fishing,Crystal-fishing
 TrainerVictoryME = Trainer Defeated.ogg
+WildBattleBGM = VS Wild.ogg
 WildVictoryME = Wild Defeated.ogg
 TrainerBattleBGM = VS Trainer.ogg
-SurfBGM = Surf.ogg
-BicycleBGM = Bicycle.ogg
-Home = 3,13,8,8
-WildBattleBGM = VS Wild.ogg
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [001]
 # INTRO
@@ -29,24 +17,23 @@ WildBattleBGM = VS Wild.ogg
 [002]
 # NEW BARK TOWN
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,20,12
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [003]
 # \PN'S HOUSE
-MapPosition = 0,20,12
 HealingSpot = 2,15,8
+MapPosition = 0,20,12
 BattleBack = general
 #-------------------------------
 [004]
 # \PN'S ROOM
 MapPosition = 0,20,12
-ShowArea = false
 BattleBack = general
+ShowArea = false
 #-------------------------------
 [005]
 # HOUSE 1
@@ -60,90 +47,33 @@ BattleBack = general
 #-------------------------------
 [007]
 # ELM'S POKéMON LAB
-MapPosition = 0,20,12
 MapSize = 2,11
-BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
 MapPosition = 0,20,12
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[003]
-# \PN'S HOUSE
 BattleBack = general
-MapPosition = 0,20,12
-HealingSpot = 2,15,8
-#-------------------------------
-[004]
-# \PN'S ROOM
-BattleBack = general
-MapPosition = 0,20,12
-ShowArea = false
-#-------------------------------
-[005]
-# HOUSE 1
-BattleBack = general
-MapPosition = 0,20,12
-#-------------------------------
-[006]
-# HOUSE 2
-BattleBack = general
-MapPosition = 0,20,12
-#-------------------------------
-[007]
-# ELM'S POKéMON LAB
-MapSize = 2,11
-BattleBack = general
-MapPosition = 0,20,12
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [008]
 # ROUTE 29
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,18,12
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [009]
 # KURT'S HOUSE
 MapPosition = 0,18,12
-Outdoor = true
 BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-MapPosition = 0,18,12
 Outdoor = true
-ShowArea = true
-#-------------------------------
-[009]
-# KURT'S HOUSE
-BattleBack = general
-MapPosition = 0,18,12
-Outdoor = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [010]
 # GOLDENROD CITY
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,18,11
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 0,18,11
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [011]
 # POKéCOM CENTER
@@ -152,13 +82,8 @@ MapPosition = 0,18,11
 [012]
 # GYM EXAMPLE
 SnapEdges = true
-<<<<<<< HEAD
 MapPosition = 0,18,11
 BattleBack = general
-=======
-BattleBack = general
-MapPosition = 0,18,11
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [014]
 # UNDERGROUND PATH
@@ -211,29 +136,20 @@ MapPosition = 0,18,10
 [028]
 # EXIL FOREST
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,18,10
-ShowArea = true
-Outdoor = false
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 0,18,10
-Outdoor = false
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = false
 #-------------------------------
 [029]
 # GANYMAHO TOWN
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,18,9
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [030]
 # EXIL FOREST NORTH ENTRANCE
@@ -274,93 +190,31 @@ BattleBack = general
 # PARK NATIONAL PAVILLION
 MapPosition = 0,18,8
 BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-MapPosition = 0,18,9
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[030]
-# EXIL FOREST NORTH ENTRANCE
-BattleBack = general
-MapPosition = 0,18,10
-#-------------------------------
-[031]
-# GANYMAHO TOWN POKé CENTER
-BattleBack = general
-MapPosition = 0,18,9
-#-------------------------------
-[032]
-# GANYMAHO TOWN MART
-BattleBack = general
-MapPosition = 0,18,9
-#-------------------------------
-[033]
-# POKéMON FAN CLUB
-BattleBack = general
-MapPosition = 0,18,9
-#-------------------------------
-[034]
-# POKéMON DAY CARE
-BattleBack = general
-MapPosition = 0,18,9
-#-------------------------------
-[035]
-# PARK NATIONAL
-BattleBack = general
-MapPosition = 0,18,8
-#-------------------------------
-[036]
-# PARK NATIONAL ENTRANCE
-BattleBack = general
-MapPosition = 0,18,8
-#-------------------------------
-[037]
-# PARK NATIONAL PAVILLION
-BattleBack = general
-MapPosition = 0,18,8
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [038]
 # ROUTE 30
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,20,9
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 0,20,9
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [039]
 # ICE PATH
 SnapEdges = false
-<<<<<<< HEAD
 MapPosition = 0,21,8
-ShowArea = true
 BattleBack = general
-=======
-BattleBack = general
-MapPosition = 0,21,8
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [040]
 # ROUTE 31
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,21,10
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [041]
 # UNION CAVE
@@ -376,39 +230,16 @@ BattleBack = general
 # DUNGEON
 MapPosition = 0,20,10
 BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-MapPosition = 0,21,10
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[041]
-# UNION CAVE
-BattleBack = general
-MapPosition = 0,20,10
-#-------------------------------
-[042]
-# UNION CAVE
-BattleBack = general
-MapPosition = 0,20,10
-#-------------------------------
-[043]
-# DUNGEON
-BattleBack = general
-MapPosition = 0,20,10
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [044]
 # ROUTE 28
 SnapEdges = true
-<<<<<<< HEAD
-DiveMap = 45
-Bicycle = true
 MapPosition = 0,22,12
+DiveMap = 45
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [045]
 # UNDERWATER
@@ -424,40 +255,15 @@ BattleBack = general
 # INDIGO PLATEAU ENTRANCE
 MapPosition = 1,9,11
 BattleBack = general
-=======
-BattleBack = general
-DiveMap = 45
-BattleBack = general
-Bicycle = true
-MapPosition = 0,22,12
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[045]
-# UNDERWATER
-BattleBack = general
-MapPosition = 0,22,12
-#-------------------------------
-[046]
-# VERLD FALLS
-BattleBack = general
-MapPosition = 1,7,11
-#-------------------------------
-[047]
-# INDIGO PLATEAU ENTRANCE
-BattleBack = general
-MapPosition = 1,9,11
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [048]
 # INDIGO PLATEAU
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,9,8
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [049]
 # POKéMON LEAGUE
@@ -473,38 +279,15 @@ BattleBack = general
 # HALL OF FAME
 MapPosition = 1,9,7
 BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-MapPosition = 1,9,8
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[049]
-# POKéMON LEAGUE
-BattleBack = general
-MapPosition = 1,9,7
-#-------------------------------
-[050]
-# POKéMON LEAGUE
-BattleBack = general
-MapPosition = 1,9,7
-#-------------------------------
-[051]
-# HALL OF FAME
-BattleBack = general
-MapPosition = 1,9,7
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [052]
 # BATTLE FRONTIER
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 0,16,9
+BattleBack = general
+Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
 #-------------------------------
 [053]
 # BATTLE FRONTIER POKé CENTER
@@ -575,100 +358,15 @@ BattleBack = general
 # BATTLE FRONTIER ENTRANCE
 MapPosition = 0,17,9
 BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-MapPosition = 0,16,9
-Outdoor = true
-ShowArea = true
-#-------------------------------
-[053]
-# BATTLE FRONTIER POKé CENTER
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[054]
-# BATTLE FRONTIER MART
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[055]
-# BATTLE TOWER
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[056]
-# BATTLE TOWER ARENA
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[057]
-# STADIUM CUP LOBBY
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[058]
-# BATTLE PALACE
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[059]
-# BATTLE PALACE ARENA
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[060]
-# BATTLE ARENA
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[061]
-# BATTLE ARENA ARENA
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[062]
-# BATTLE FACTORY
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[063]
-# BATTLE FACTORY INTRO CORRIDOR
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[064]
-# BATTLE FACTORY ARENA
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[065]
-# BATTLE FACTORY CORRIDOR
-BattleBack = general
-MapPosition = 0,16,9
-#-------------------------------
-[066]
-# BATTLE FRONTIER ENTRANCE
-BattleBack = general
-MapPosition = 0,17,9
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [067]
 # FRONSAF CITY
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,11,8
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 1,11,8
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [068]
 # FRONSAF CITY POKé CENTER
@@ -685,38 +383,21 @@ MapPosition = 1,11,8
 [071]
 # ROUTE 24
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,13,8
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 1,13,8
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [072]
 # ROUTE 24
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = false
 BicycleAlways = true
 MapPosition = 1,13,8
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = false
-MapPosition = 1,13,8
-Outdoor = true
-BicycleAlways = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [073]
 # CYCLING ROAD GATE
@@ -725,53 +406,29 @@ MapPosition = 1,12,8
 [074]
 # ROUTE 25
 SnapEdges = true
-<<<<<<< HEAD
 BicycleAlways = true
 MapPosition = 1,13,9
+BattleBack = general
 ShowArea = true
 Outdoor = true
-BattleBack = general
-=======
-BattleBack = general
-MapPosition = 1,13,9
-Outdoor = true
-BicycleAlways = true
-ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [075]
 # ROUTE 26
 SnapEdges = true
-<<<<<<< HEAD
 BicycleAlways = true
 MapPosition = 1,13,11
+BattleBack = general
 ShowArea = true
 Outdoor = true
-BattleBack = general
-=======
-BattleBack = general
-MapPosition = 1,13,11
-Outdoor = true
-BicycleAlways = true
-ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [076]
 # ROUTE 26
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,13,11
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 1,13,11
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [077]
 # CYCLING ROAD GATE
@@ -780,19 +437,11 @@ MapPosition = 1,12,11
 [078]
 # LLIONVERMI CITY
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,11,11
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 1,11,11
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [079]
 # LLIONVERMI CITY POKé CENTER
@@ -808,21 +457,12 @@ MapPosition = 1,11,11
 #-------------------------------
 [082]
 # SAFARI ZONE
-<<<<<<< HEAD
 SnapEdges = true
-Bicycle = false
+SafariMap = true
 MapPosition = 1,11,10
-SafariMap = true
-Outdoor = true
-BattleBack = general
-=======
-SafariMap = true
-SnapEdges = true
 BattleBack = general
 Bicycle = false
-MapPosition = 1,11,10
 Outdoor = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [083]
 # SAFARY ZONE GATE
@@ -831,106 +471,50 @@ MapPosition = 1,11,10
 [084]
 # HARBOUR
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = false
 MapPosition = 1,11,11
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = false
-MapPosition = 1,11,11
 Outdoor = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [085]
 # ROUTE 27
 SnapEdges = true
-<<<<<<< HEAD
-Bicycle = true
 MapPosition = 1,10,11
-ShowArea = true
-Outdoor = true
-BattleBack = general
-=======
 BattleBack = general
 Bicycle = true
-MapPosition = 1,10,11
-Outdoor = true
 ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
+Outdoor = true
 #-------------------------------
 [086]
 # DAROXY ISLAND
 SnapEdges = true
-<<<<<<< HEAD
+BattleBack = general
 Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-Outdoor = true
-ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [087]
 # FARADAY ISLAND
 SnapEdges = true
-<<<<<<< HEAD
+BattleBack = general
 Bicycle = true
 ShowArea = true
 Outdoor = true
-BattleBack = general
-=======
-BattleBack = general
-Bicycle = true
-Outdoor = true
-ShowArea = true
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [088]
 # RADIO TOWER
 SnapEdges = true
-<<<<<<< HEAD
 MapPosition = 0,18,11
 BattleBack = general
-=======
-BattleBack = general
-MapPosition = 0,18,11
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [089]
 # RADIO TOWER 2F
 SnapEdges = true
-<<<<<<< HEAD
 MapPosition = 0,18,11
 BattleBack = general
 #-------------------------------
 [091]
 # Starting Town
 Bicycle = true
-Environment = Snow
 ShowArea = true
 Outdoor = true
-BattleBack = Field_day
-#-------------------------------
-[092]
-# Route 1
-Bicycle = true
-Environment = None
-ShowArea = true
-Outdoor = true
-BattleBack = Forest_day
-#-------------------------------
-[093]
-# Aurius Ruins Front
-Bicycle = true
-Environment = Snow
-ShowArea = true
-Outdoor = true
-=======
-BattleBack = general
-MapPosition = 0,18,11
->>>>>>> 9c5e5fa3 (Initial commit)

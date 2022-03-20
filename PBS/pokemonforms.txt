@@ -89,169 +89,71 @@ WildItemUncommon = PSNCUREBERRY
 FormName = Cosplay Pikachu
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,4]
 FormName = Cosplay Pikachu - Belle
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,5]
 FormName = Cosplay Pikachu - Libre
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,6]
 FormName = Cosplay Pikachu - Ph.D.
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,7]
 FormName = Cosplay Pikachu - Pop Star
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,8]
 FormName = Cosplay Pikachu - Rock Star
 Compatibility = Undiscovered
 Pokedex = Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,9]
 FormName = Original Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through many different regions.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,10]
 FormName = Hoenn Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Hoenn region.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,11]
 FormName = Sinnoh Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Sinnoh region.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,12]
 FormName = Unova Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Unova region.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,13]
 FormName = Kalos Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Kalos region.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,14]
 FormName = Alola Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Alola region.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,15]
 FormName = Partner Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu wears its partner's cap, which is brimming with memories of when they first met.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [PIKACHU,16]
 FormName = World Cap Pikachu
 Compatibility = Undiscovered
 Pokedex = This Pikachu is wearing its Trainer's cap. The cap is a precious symbol that travels across different regions with Pikachu.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 18
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [RAICHU,1]
 FormName = Alolan
@@ -360,14 +262,6 @@ Abilities = PICKUP,TOUGHCLAWS
 EggMoves = COVET,CURSE,DOUBLEEDGE,FLAIL,NIGHTSLASH,SPITE
 Color = Brown
 Pokedex = These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 37
-BattlerEnemyY = 25
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 Evolutions = PERRSERKER,Level,28
 #-------------------------------
 [PERSIAN,1]
@@ -382,10 +276,6 @@ Weight = 33.0
 Color = Blue
 Pokedex = Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.
 #-------------------------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0caa9fdf (More updates)
 [GROWLITHE,1]
 FormName = HISUIAN
 Type1 = FIRE
@@ -393,11 +283,6 @@ Type2 = ROCK
 Height = 0.8
 Weight = 22.7
 #-------------------------------
-<<<<<<< HEAD
-=======
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 0caa9fdf (More updates)
 [ALAKAZAM,1]
 FormName = Mega Alakazam
 MegaStone = ALAKAZITE
@@ -406,11 +291,6 @@ Abilities = TRACE
 HiddenAbility = TRACE
 Height = 1.2
 Pokedex = Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.
-<<<<<<< HEAD
-BattlerPlayerY = -8
-BattlerEnemyY = 4
-=======
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [GEODUDE,1]
 FormName = Alolan
@@ -482,13 +362,6 @@ Abilities = GLUTTONY,OWNTEMPO
 Moves = 1,TACKLE,1,CURSE,3,GROWL,6,ACID,9,YAWN,12,CONFUSION,15,DISABLE,18,WATERPULSE,21,HEADBUTT,24,ZENHEADBUTT,27,AMNESIA,30,SURF,33,SLACKOFF,36,PSYCHIC,39,PSYCHUP,42,RAINDANCE,45,HEALPULSE
 EggMoves = BELCH,BELLYDRUM,BLOCK,STOMP
 Pokedex = Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 4
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 Evolutions = SLOWKING,Item,GALARICAWREATH,SLOWKING,Item,GALARICAWREATH
 #-------------------------------
 [SLOWBRO,1]
@@ -583,16 +456,7 @@ HiddenAbility = ROCKHEAD
 Moves = 1,GROWL,1,TAILWHIP,1,BONECLUB,1,FLAMEWHEEL,3,TAILWHIP,7,BONECLUB,11,FLAMEWHEEL,13,LEER,17,HEX,21,BONEMERANG,23,WILLOWISP,27,SHADOWBONE,33,THRASH,37,FLING,43,STOMPINGTANTRUM,49,ENDEAVOR,53,FLAREBLITZ,59,RETALIATE,65,BONERUSH
 Weight = 34.0
 Color = Purple
-<<<<<<< HEAD
-<<<<<<< HEAD
 Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.
-=======
-Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak
-BattlerEnemyY = 8
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
-Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [WEEZING,1]
 FormName = Galarian
@@ -604,13 +468,6 @@ Height = 3.0
 Weight = 16.0
 Color = Gray
 Pokedex = Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 4
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [KANGASKHAN,1]
 FormName = Mega Kangaskhan
@@ -620,14 +477,6 @@ Abilities = PARENTALBOND
 HiddenAbility = PARENTALBOND
 Weight = 100.0
 Pokedex = The explosive energy the child is bathed in causes temporary growth. The mother is beside herself with worry about it.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 24
-BattlerEnemyY = 21
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MRMIME,1]
 FormName = Galarian
@@ -968,11 +817,6 @@ Abilities = FILTER
 HiddenAbility = FILTER
 Height = 2.2
 Weight = 395.0
-<<<<<<< HEAD
-BattlerPlayerY = -5
-BattlerEnemyY = 5
-=======
->>>>>>> 9c5e5fa3 (Initial commit)
 #-------------------------------
 [MEDICHAM,1]
 FormName = Mega Medicham
@@ -1467,27 +1311,13 @@ Weight = 20.5
 Color = Green
 Pokedex = Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.
 #-------------------------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0caa9fdf (More updates)
 [BRAVIARY,1]
 FormName = HISUIAN
 Type1 = PSYCHIC
 Type2 = FLYING
 Height = 1.7
 Weight = 43.4
-<<<<<<< HEAD
-<<<<<<< HEAD
 #-------------------------------
-=======
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
-BattlerEnemyY = 4
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
-#-------------------------------
->>>>>>> 0caa9fdf (More updates)
 [TORNADUS,1]
 FormName = Therian Forme
 BaseStats = 79,100,80,121,110,90
@@ -1534,13 +1364,6 @@ Abilities = TERAVOLT
 Moves = 1,DRAGONBREATH,1,NOBLEROAR,1,ANCIENTPOWER,1,FREEZEDRY,8,SLASH,16,ENDEAVOR,24,DRAGONPULSE,32,ICEBEAM,40,HYPERVOICE,48,FUSIONBOLT,56,BLIZZARD,64,IMPRISON,72,OUTRAGE,80,FREEZESHOCK,88,SHEERCOLD
 Height = 3.3
 Pokedex = It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 4
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [KYUREM,3]
 PokedexForm = 1
@@ -1705,8 +1528,6 @@ FormName = Heart Trim
 #-------------------------------
 [FURFROU,2]
 FormName = Star Trim
-<<<<<<< HEAD
-<<<<<<< HEAD
 #-------------------------------
 [FURFROU,3]
 FormName = Diamond Trim
@@ -1728,36 +1549,6 @@ FormName = Kabuki Trim
 #-------------------------------
 [FURFROU,9]
 FormName = Pharaoh Trim
-=======
-BattlerEnemyY = 8
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
-#-------------------------------
-[FURFROU,3]
-FormName = Diamond Trim
-#-------------------------------
-[FURFROU,4]
-FormName = Debutante Trim
-#-------------------------------
-[FURFROU,5]
-FormName = Matron Trim
-#-------------------------------
-[FURFROU,6]
-FormName = Dandy Trim
-#-------------------------------
-[FURFROU,7]
-FormName = La Reine Trim
-#-------------------------------
-[FURFROU,8]
-FormName = Kabuki Trim
-#-------------------------------
-[FURFROU,9]
-FormName = Pharaoh Trim
-<<<<<<< HEAD
-BattlerEnemyY = 8
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MEOWSTIC,1]
 FormName = Female
@@ -1858,13 +1649,6 @@ Height = 6.5
 Weight = 490.0
 Shape = 6
 BattlerPlayerY = 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 4
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [ORICORIO,1]
 FormName = Pom-Pom Style
@@ -1902,14 +1686,6 @@ Height = 1.1
 Color = Red
 Shape = 6
 Pokedex = It goads its enemies into attacking, withstands the hits, and in return, delivers a headbutt, crushing their bones with its rocky mane.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 13
-BattlerEnemyY = 14
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [LYCANROC,2]
 FormName = Dusk Form
@@ -1926,13 +1702,6 @@ Height = 8.2
 Weight = 78.6
 Shape = 11
 Pokedex = Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerEnemyY = 4
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [SILVALLY,1]
 FormName = Type: Fighting
@@ -2013,14 +1782,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Red
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,2]
 FormName = Orange Core
@@ -2029,14 +1790,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Red
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,3]
 FormName = Yellow Core
@@ -2045,14 +1798,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Yellow
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,4]
 FormName = Green Core
@@ -2061,14 +1806,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Green
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,5]
 FormName = Blue Core
@@ -2077,14 +1814,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Blue
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,6]
 FormName = Indigo Core
@@ -2093,14 +1822,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Blue
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MINIOR,7]
 FormName = Violet Core
@@ -2109,14 +1830,6 @@ EffortPoints = 0,1,0,0,1,0
 Weight = 0.3
 Color = Purple
 Pokedex = If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 32
-BattlerEnemyY = 36
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [MIMIKYU,1]
 FormName = Busted Form
@@ -2133,14 +1846,6 @@ Weight = 460.0
 Color = Yellow
 Shape = 8
 Pokedex = This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 3
-BattlerEnemyY = 5
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [NECROZMA,2]
 FormName = Dawn Wings
@@ -2163,13 +1868,6 @@ Abilities = NEUROFORCE
 Height = 7.5
 Color = Yellow
 Pokedex = The light pouring out from all over its body affects living things and nature, impacting them in various ways.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-BattlerPlayerY = 3
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 #-------------------------------
 [NECROZMA,4]
 PokedexForm = 3
@@ -2203,8 +1901,6 @@ BattlerEnemyY = 11
 #-------------------------------
 [ALCREMIE,1]
 FormName = Berry - Vanilla Cream
-<<<<<<< HEAD
-<<<<<<< HEAD
 #-------------------------------
 [ALCREMIE,2]
 FormName = Love - Vanilla Cream
@@ -2388,198 +2084,6 @@ FormName = Flower - Rainbow Swirl
 #-------------------------------
 [ALCREMIE,62]
 FormName = Ribbon - Rainbow Swirl
-=======
-BattlerEnemyY = 8
-=======
->>>>>>> 667c8a24 (v1.2 Changelog (1st part))
-#-------------------------------
-[ALCREMIE,2]
-FormName = Love - Vanilla Cream
-#-------------------------------
-[ALCREMIE,3]
-FormName = Star - Vanilla Cream
-#-------------------------------
-[ALCREMIE,4]
-FormName = Clover - Vanilla Cream
-#-------------------------------
-[ALCREMIE,5]
-FormName = Flower - Vanilla Cream
-#-------------------------------
-[ALCREMIE,6]
-FormName = Ribbon - Vanilla Cream
-#-------------------------------
-[ALCREMIE,7]
-FormName = Strawberry - Ruby Cream
-#-------------------------------
-[ALCREMIE,8]
-FormName = Berry - Ruby Cream
-#-------------------------------
-[ALCREMIE,9]
-FormName = Love - Ruby Cream
-#-------------------------------
-[ALCREMIE,10]
-FormName = Star - Ruby Cream
-#-------------------------------
-[ALCREMIE,11]
-FormName = Clover - Ruby Cream
-#-------------------------------
-[ALCREMIE,12]
-FormName = Flower - Ruby Cream
-#-------------------------------
-[ALCREMIE,13]
-FormName = Ribbon - Ruby Cream
-#-------------------------------
-[ALCREMIE,14]
-FormName = Strawberry - Matcha Cream
-#-------------------------------
-[ALCREMIE,15]
-FormName = Berry - Matcha Cream
-#-------------------------------
-[ALCREMIE,16]
-FormName = Love - Matcha Cream
-#-------------------------------
-[ALCREMIE,17]
-FormName = Star - Matcha Cream
-#-------------------------------
-[ALCREMIE,18]
-FormName = Clover - Matcha Cream
-#-------------------------------
-[ALCREMIE,19]
-FormName = Flower - Matcha Cream
-#-------------------------------
-[ALCREMIE,20]
-FormName = Ribbon - Matcha Cream
-#-------------------------------
-[ALCREMIE,21]
-FormName = Strawberry - Mint Cream
-#-------------------------------
-[ALCREMIE,22]
-FormName = Berry - Mint Cream
-#-------------------------------
-[ALCREMIE,23]
-FormName = Love - Mint Cream
-#-------------------------------
-[ALCREMIE,24]
-FormName = Star - Mint Cream
-#-------------------------------
-[ALCREMIE,25]
-FormName = Clover - Mint Cream
-#-------------------------------
-[ALCREMIE,26]
-FormName = Flower - Mint Cream
-#-------------------------------
-[ALCREMIE,27]
-FormName = Ribbon - Mint Cream
-#-------------------------------
-[ALCREMIE,28]
-FormName = Strawberry - Lemon Cream
-#-------------------------------
-[ALCREMIE,29]
-FormName = Berry - Lemon Cream
-#-------------------------------
-[ALCREMIE,30]
-FormName = Love - Lemon Cream
-#-------------------------------
-[ALCREMIE,31]
-FormName = Star - Lemon Cream
-#-------------------------------
-[ALCREMIE,32]
-FormName = Clover - Lemon Cream
-#-------------------------------
-[ALCREMIE,33]
-FormName = Flower - Lemon Cream
-#-------------------------------
-[ALCREMIE,34]
-FormName = Ribbon - Lemon Cream
-#-------------------------------
-[ALCREMIE,35]
-FormName = Strawberry - Salted Cream
-#-------------------------------
-[ALCREMIE,36]
-FormName = Berry - Salted Cream
-#-------------------------------
-[ALCREMIE,37]
-FormName = Love - Salted Cream
-#-------------------------------
-[ALCREMIE,38]
-FormName = Star - Salted Cream
-#-------------------------------
-[ALCREMIE,39]
-FormName = Clover - Salted Cream
-#-------------------------------
-[ALCREMIE,40]
-FormName = Flower - Salted Cream
-#-------------------------------
-[ALCREMIE,41]
-FormName = Ribbon - Salted Cream
-#-------------------------------
-[ALCREMIE,42]
-FormName = Strawberry - Ruby Swirl
-#-------------------------------
-[ALCREMIE,43]
-FormName = Berry - Ruby Swirl
-#-------------------------------
-[ALCREMIE,44]
-FormName = Love - Ruby Swirl
-#-------------------------------
-[ALCREMIE,45]
-FormName = Star - Ruby Swirl
-#-------------------------------
-[ALCREMIE,46]
-FormName = Clover - Ruby Swirl
-#-------------------------------
-[ALCREMIE,47]
-FormName = Flower - Ruby Swirl
-#-------------------------------
-[ALCREMIE,48]
-FormName = Ribbon - Ruby Swirl
-#-------------------------------
-[ALCREMIE,49]
-FormName = Strawberry - Caramel Swirl
-#-------------------------------
-[ALCREMIE,50]
-FormName = Berry - Caramel Swirl
-#-------------------------------
-[ALCREMIE,51]
-FormName = Love - Caramel Swirl
-#-------------------------------
-[ALCREMIE,52]
-FormName = Star - Caramel Swirl
-#-------------------------------
-[ALCREMIE,53]
-FormName = Clover - Caramel Swirl
-#-------------------------------
-[ALCREMIE,54]
-FormName = Flower - Caramel Swirl
-#-------------------------------
-[ALCREMIE,55]
-FormName = Ribbon - Caramel Swirl
-#-------------------------------
-[ALCREMIE,56]
-FormName = Strawberry - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,57]
-FormName = Berry - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,58]
-FormName = Love - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,59]
-FormName = Star - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,60]
-FormName = Clover - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,61]
-FormName = Flower - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,62]
-FormName = Ribbon - Rainbow Swirl
-<<<<<<< HEAD
-BattlerEnemyY = 8
->>>>>>> 9c5e5fa3 (Initial commit)
-=======
->>>>>>> bbd122a8 (Ability message SE; Small and Narrow fonts substitution; fit some more battle messages and Pokégear registration; added arrows in Summary Page to clarify nature's boosts and nerfs; erased border option (you can already play in 3 different sizes); fixed print message when playing mining minigame; added "↑" and "↓" characters to font; repositioned some Pokémon sprites.)
 #-------------------------------
 [EISCUE,1]
 FormName = Noice Face

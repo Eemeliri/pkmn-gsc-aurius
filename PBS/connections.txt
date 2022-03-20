@@ -1,9 +1,1 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-<<<<<<< HEAD
-#-------------------------------
-# Route 1 (92) - MAP093 (93)
-92,West,1,93,East,0
-# Route 1 (92) - Starting Town (91)
-92,North,0,91,South,3
-=======
->>>>>>> 9c5e5fa3 (Initial commit)

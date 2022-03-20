@@ -1,10 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-<<<<<<< HEAD
-002 # NEW BARK TOWN
-=======
 002 # BARK NEW TOWN
->>>>>>> 9c5e5fa3 (Initial commit)
 25,10,10
 Water
     TENTACOOL,14,19
@@ -330,11 +326,7 @@ Cave
     BURMY,14,16
     BURMY,14,16
 #-------------------------------
-<<<<<<< HEAD
-043 # DUNGEON
-=======
 043 # UNION CAVE
->>>>>>> 9c5e5fa3 (Initial commit)
 25,10,10
 Cave
     PICHU,1
@@ -385,11 +377,7 @@ SuperRod
     STARYU,15,17
     STARYU,15,17
 #-------------------------------
-<<<<<<< HEAD
-045 # UNDERWATER
-=======
 045 # ROUTE 28
->>>>>>> 9c5e5fa3 (Initial commit)
 25,10,10
 Land
     CLAMPERL,18,20
@@ -522,22 +510,3 @@ SuperRod
     CORSOLA,15,18
     STARYU,15,17
     STARYU,15,17
-<<<<<<< HEAD
-#-------------------------------
-092 # Route 1
-25,10,10
-Land
-    RATTATA,11,14
-    SENTRET,11,14
-    ZIGZAGOON,11,14
-    ZIGZAGOON,11,14
-    BIDOOF,11,14
-    BIDOOF,11,14
-    PATRAT,11,14
-    PATRAT,11,14
-    PATRAT,11,14
-    PATRAT,11,14
-    PATRAT,11,14
-    PATRAT,11,14
-=======
->>>>>>> 9c5e5fa3 (Initial commit)
