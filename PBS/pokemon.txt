@@ -65,10 +65,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = VENUSAUR,Level,32
@@ -168,10 +172,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = CHARIZARD,Level,36
@@ -271,10 +279,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = BLASTOISE,Level,36
@@ -475,10 +487,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = BEEDRILL,Level,10
@@ -581,10 +597,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PIDGEOT,Level,36
@@ -617,10 +637,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -688,10 +712,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -897,10 +925,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -970,10 +1002,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -1045,10 +1081,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = NIDOQUEEN,Item,MOONSTONE
@@ -1081,10 +1121,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -1156,10 +1200,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = NIDOKING,Item,MOONSTONE
@@ -1192,10 +1240,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -1337,10 +1389,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -1374,10 +1430,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = WIGGLYTUFF,Item,MOONSTONE
@@ -1833,10 +1893,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PERSIAN,Level,28
@@ -1869,10 +1933,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -1905,10 +1973,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = GOLDUCK,Level,33
@@ -2007,10 +2079,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -2110,10 +2186,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = POLIWHIRL,Level,25
@@ -2146,10 +2226,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
@@ -2183,10 +2267,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -2256,10 +2344,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = ALAKAZAM,Trade,
@@ -2699,10 +2791,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = RAPIDASH,Level,40
@@ -2734,10 +2830,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3008,10 +3108,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = DEWGONG,Level,34
@@ -3113,10 +3217,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3248,10 +3356,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = GENGAR,Trade,
@@ -3316,10 +3428,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = STEELIX,TradeItem,METALCOAT
@@ -3383,10 +3499,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3419,10 +3539,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = KINGLER,Level,28
@@ -3454,10 +3578,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3686,10 +3814,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3721,10 +3853,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -3795,10 +3931,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = WEEZING,Level,35
@@ -3868,10 +4008,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = RHYDON,Level,42
@@ -3904,10 +4048,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = RHYPERIOR,TradeItem,PROTECTOR
@@ -4005,10 +4153,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4042,10 +4194,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = SEADRA,Level,32
@@ -4247,10 +4403,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4316,10 +4476,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4416,10 +4580,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4518,10 +4686,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4693,10 +4865,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4759,10 +4935,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PORYGON2,TradeItem,UPGRADE
@@ -4832,10 +5012,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -4869,10 +5053,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = KABUTOPS,Level,40
@@ -4905,10 +5093,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -5073,10 +5265,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -5408,10 +5604,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = TYPHLOSION,Level,36
@@ -5637,10 +5837,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = NOCTOWL,Level,20
@@ -5673,10 +5877,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -6032,10 +6240,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = JIGGLYPUFF,Happiness,
@@ -6436,10 +6648,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -6473,10 +6689,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = SKIPLOOM,Level,18
@@ -6545,10 +6765,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -6743,10 +6967,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -6842,10 +7070,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = HONCHKROW,Item,DUSKSTONE
@@ -6910,10 +7142,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = MISMAGIUS,Item,DUSKSTONE
@@ -7041,10 +7277,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = FORRETRESS,Level,31
@@ -7280,10 +7520,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -7316,10 +7560,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -7393,10 +7641,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -7631,10 +7883,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = MAMOSWINE,HasMove,ANCIENTPOWER
@@ -7701,10 +7957,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = OCTILLERY,Level,25
@@ -7736,10 +7996,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -7873,10 +8137,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = HOUNDOOM,Level,24
@@ -7909,10 +8177,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -7946,10 +8218,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -8048,10 +8324,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PORYGONZ,TradeItem,DUBIOUSDISC
@@ -8182,10 +8462,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -8285,10 +8569,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = MAGMAR,Level,30
@@ -8393,10 +8681,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -8523,10 +8815,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = TYRANITAR,Level,55
@@ -8630,10 +8926,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -8763,10 +9063,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -9454,10 +9758,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = SHIFTRY,Item,LEAFSTONE
@@ -9701,10 +10009,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = GARDEVOIR,Level,30,GALLADE,ItemMale,DAWNSTONE
@@ -10039,10 +10351,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10073,10 +10389,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10243,10 +10563,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10732,10 +11056,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10768,10 +11096,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10840,10 +11172,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -10877,10 +11213,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = ROSERADE,Item,SHINYSTONE
@@ -11116,10 +11456,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = CAMERUPT,Level,33
@@ -11183,10 +11527,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -11250,6 +11598,7 @@ Kind = MANIPULATE
 Pokedex = It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes.
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -11258,6 +11607,11 @@ BattlerPlayerY = 0
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -13403,10 +13757,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = GROTLE,Level,18
@@ -13503,10 +13861,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = MONFERNO,Level,14
@@ -13608,10 +13970,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PRINPLUP,Level,16
@@ -13713,10 +14079,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = STARAVIA,Level,14
@@ -13816,6 +14186,7 @@ Kind = PLUMP MOUSE
 Pokedex = It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -13824,6 +14195,11 @@ BattlerPlayerY = 0
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = BIBAREL,Level,15
@@ -13890,10 +14266,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = KRICKETUNE,Level,10
@@ -13925,10 +14305,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -13960,10 +14344,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = LUXIO,Level,15
@@ -14065,10 +14453,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = ROSELIA,HappinessDay,
@@ -14137,10 +14529,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = RAMPARDOS,Level,30
@@ -14492,10 +14888,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = FLOATZEL,Level,26
@@ -14906,10 +15306,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -15473,10 +15877,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = SNORLAX,Happiness,
@@ -21076,10 +21484,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = LAMPENT,Level,41
@@ -22607,10 +23019,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = CHESNAUGHT,Level,36
@@ -22868,10 +23284,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = DIGGERSBY,Level,20
@@ -23177,10 +23597,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -23544,10 +23968,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = DOUBLADE,Level,35
@@ -24043,10 +24471,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = HELIOLISK,Item,SUNSTONE
@@ -24078,10 +24510,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -24279,10 +24715,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -24716,10 +25156,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = NOIVERN,Level,48
@@ -24751,10 +25195,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -25143,10 +25591,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -25247,10 +25699,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -25696,10 +26152,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -25766,10 +26226,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -25941,10 +26405,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26083,6 +26551,7 @@ Pokedex = For self-protection, it pretends to be a bug Pokémon. Both of its arm
 WildItemUncommon = MIRACLESEED
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -26091,6 +26560,11 @@ BattlerPlayerY = 4
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26296,6 +26770,7 @@ Kind = STRONG ARM
 Pokedex = It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -26304,6 +26779,11 @@ BattlerPlayerY = 14
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26476,10 +26956,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26576,10 +27060,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26613,10 +27101,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = PALOSSAND,Level,42
@@ -26779,10 +27271,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26813,10 +27309,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -26954,6 +27454,7 @@ Pokedex = It burrows beneath the sand, radiating psychic power from the protuber
 WildItemUncommon = RAZORFANG
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -26962,6 +27463,11 @@ BattlerPlayerY = 30
 BattlerEnemyX = 0
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -27057,10 +27563,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = HAKAMOO,Level,35
@@ -27093,10 +27603,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = KOMMOO,Level,45
@@ -27129,10 +27643,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -27413,10 +27931,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -27604,10 +28126,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -27637,10 +28163,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -27738,10 +28268,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = NAGANADEL,HasMove,DRAGONPULSE
@@ -27772,10 +28306,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -28222,10 +28760,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -29446,10 +29988,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -29481,10 +30027,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = HATTREM,Level,32
@@ -29550,10 +30100,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -29690,10 +30244,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -29820,10 +30378,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -29854,10 +30416,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 667c8a24 (v1.2 Changelog (1st part))
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
