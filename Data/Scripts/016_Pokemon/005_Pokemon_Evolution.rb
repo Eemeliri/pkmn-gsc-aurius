@@ -397,7 +397,7 @@ PBEvolution.register(:LevelDiving, {
 
 PBEvolution.register(:LevelDarkness, {
   "levelUpCheck" => proc { |pkmn, parameter|
-    next pkmn.level >= parameter && pbGetMetadata($game_map.map_id, MetadataDarkMap)
+    next pkmn.level >= parameter && pbGetMetadata($game_map.map_id, MapMetadata::DARK_MAP)
   }
 })
 
@@ -656,7 +656,7 @@ PBEvolution.register(:Location, {
 PBEvolution.register(:Region, {
   "minimumLevel" => 1,   # Needs any level up
   "levelUpCheck" => proc { |pkmn, parameter|
-    mapPos = pbGetMetadata($game_map.map_id, MetadataMapPosition)
+    mapPos = pbGetMetadata($game_map.map_id, MapMetadata::MAP_POSITION)
     next mapPos && mapPos[0] == parameter
   }
 })

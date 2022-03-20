@@ -353,7 +353,7 @@ elsif (TIMESENSITIVETILESETSEVENING.include?(id) && PBDayNight.isNight?(pbGetTim
 
   def display_x=(value)
     @display_x = value
-    if pbGetMetadata(self.map_id,MetadataSnapEdges)
+    if pbGetMetadata(self.map_id,MapMetadata::SNAP_EDGES)
       max_x = (self.width - Graphics.width*1.0/TILE_WIDTH) * REAL_RES_X
       @display_x = [0, [@display_x, max_x].min].max
     end
@@ -362,7 +362,7 @@ elsif (TIMESENSITIVETILESETSEVENING.include?(id) && PBDayNight.isNight?(pbGetTim
 
   def display_y=(value)
     @display_y = value
-    if pbGetMetadata(self.map_id,MetadataSnapEdges)
+    if pbGetMetadata(self.map_id,MapMetadata::SNAP_EDGES)
       max_y = (self.height - Graphics.height*1.0/TILE_HEIGHT) * REAL_RES_Y
       @display_y = [0, [@display_y, max_y].min].max
     end

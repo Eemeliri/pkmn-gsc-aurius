@@ -258,7 +258,7 @@ MultipleForms.register(:PIKACHU,{
 },
 "getForm" => proc { |pkmn|
   next if pkmn.formSimple>=2
-  mapPos = pbGetMetadata($game_map.map_id,MetadataMapPosition)
+  mapPos = pbGetMetadata($game_map.map_id,MapMetadata::MAP_POSITION)
   next 1 if mapPos && mapPos[0]==1   # Tiall region
   next 0
 }})
@@ -801,7 +801,7 @@ MultipleForms.register(:CALYREX,{
 MultipleForms.register(:EXEGGCUTE,{
   "getForm" => proc { |pkmn|
     next if pkmn.formSimple>=2
-    mapPos = pbGetMetadata($game_map.map_id,MetadataMapPosition)
+    mapPos = pbGetMetadata($game_map.map_id,MapMetadata::MAP_POSITION)
     next 1 if mapPos && mapPos[0]==1   # Tiall region
     next 0
   }
@@ -818,7 +818,7 @@ MultipleForms.copy(:EXEGGCUTE,:CUBONE)
 MultipleForms.register(:KOFFING,{
   "getForm" => proc { |pkmn|
     next if pkmn.formSimple>=2
-    mapPos = pbGetMetadata($game_map.map_id,MetadataMapPosition)
+    mapPos = pbGetMetadata($game_map.map_id,MapMetadata::MAP_POSITION)
     next 1 if mapPos && mapPos[0]==1   # Tiall region
     next 0
   }
@@ -832,7 +832,7 @@ MultipleForms.copy(:KOFFING,:MIMEJR)
 MultipleForms.register(:GROWLITHE,{
   "getForm" => proc { |pkmn|
     next if pkmn.formSimple>=2
-    mapPos = pbGetMetadata($game_map.map_id,MetadataMapPosition)
+    mapPos = pbGetMetadata($game_map.map_id,MapMetadata::MAP_POSITION)
     next 1 if mapPos && mapPos[0]==1   # Tiall region
     next 0
   }
@@ -841,7 +841,7 @@ MultipleForms.register(:GROWLITHE,{
 MultipleForms.register(:BRAVIARY,{
   "getForm" => proc { |pkmn|
     next if pkmn.formSimple>=2
-    mapPos = pbGetMetadata($game_map.map_id,MetadataMapPosition)
+    mapPos = pbGetMetadata($game_map.map_id,MapMetadata::MAP_POSITION)
     next 1 if mapPos && mapPos[0]==1   # Tiall region
     next 0
   }

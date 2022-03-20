@@ -12,9 +12,9 @@ def pbCompileMetadata
     if line[/^\s*\[\s*(\d+)\s*\]\s*$/]
       sectionname = $~[1]
       if currentmap==0
-        if sections[currentmap][MetadataHome]==nil
+        if sections[currentmap][Metadata::HOME]==nil
           raise _INTL("The entry Home is required in metadata.txt section [{1}].",sectionname)
-        elsif sections[currentmap][MetadataPlayerA]==nil
+        elsif sections[currentmap][Metadata::PLAYER_A]==nil
           raise _INTL("The entry PlayerA is required in metadata.txt section [{1}].",sectionname)
         end
       end
@@ -34,9 +34,9 @@ def pbCompileMetadata
       schema = nil
       FileLineData.setSection(currentmap,matchData[1],matchData[2])
       if currentmap==0
-        schema = PokemonMetadata::GlobalTypes[matchData[1]]
+        schema = Metadata::SCHEMA[matchData[1]]
       else
-        schema = PokemonMetadata::NonGlobalTypes[matchData[1]]
+        schema = MapMetadata::SCHEMA[matchData[1]]
       end
       if schema
         record = pbGetCsvRecord(matchData[2],lineno,schema)

@@ -221,7 +221,7 @@ HiddenMoveHandlers::UseMove.add(:DIG,proc { |move,pokemon|
 # Dive
 #===============================================================================
 def pbDive
-  divemap = pbGetMetadata($game_map.map_id,MetadataDiveMap)
+  divemap = pbGetMetadata($game_map.map_id,MapMetadata::DIVE_MAP)
   return false if !divemap
   move = getID(PBMoves,:DIVE)
   movefinder = pbCheckMove(move)
@@ -254,7 +254,7 @@ def pbSurfacing
   divemap = nil
   meta = pbLoadMetadata
   for i in 0...meta.length
-    if meta[i] && meta[i][MetadataDiveMap] && meta[i][MetadataDiveMap]==$game_map.map_id
+    if meta[i] && meta[i][MapMetadata::DIVE_MAP] && meta[i][MapMetadata::DIVE_MAP]==$game_map.map_id
       divemap = i; break
     end
   end
@@ -277,7 +277,7 @@ def pbSurfacing
        $PokemonGlobal.diving  = false
        pbUpdateVehicle
        $scene.transfer_player(false)
-       surfbgm = pbGetMetadata(0,MetadataSurfBGM)
+       surfbgm = pbGetMetadata(0,Metadata::SURF_BGM)
        (surfbgm) ?  pbBGMPlay(surfbgm) : $game_map.autoplayAsCue
        $game_map.refresh
     }
@@ -306,7 +306,7 @@ Events.onAction += proc { |_sender,_e|
       divemap = nil
       meta = pbLoadMetadata
       for i in 0...meta.length
-        if meta[i] && meta[i][MetadataDiveMap] && meta[i][MetadataDiveMap]==$game_map.map_id
+        if meta[i] && meta[i][MapMetadata::DIVE_MAP] && meta[i][MapMetadata::DIVE_MAP]==$game_map.map_id
           divemap = i; break
         end
       end
@@ -326,7 +326,7 @@ HiddenMoveHandlers::CanUseMove.add(:DIVE,proc { |move,pkmn,showmsg|
     divemap = nil
     meta = pbLoadMetadata
     for i in 0...meta.length
-      if meta[i] && meta[i][MetadataDiveMap] && meta[i][MetadataDiveMap]==$game_map.map_id
+      if meta[i] && meta[i][MapMetadata::DIVE_MAP] && meta[i][MapMetadata::DIVE_MAP]==$game_map.map_id
         divemap = i; break
       end
     end
@@ -335,7 +335,7 @@ HiddenMoveHandlers::CanUseMove.add(:DIVE,proc { |move,pkmn,showmsg|
       next false
     end
   else
-    if !pbGetMetadata($game_map.map_id,MetadataDiveMap)
+    if !pbGetMetadata($game_map.map_id,MapMetadata::DIVE_MAP)
       pbMessage(_INTL("Can't use that here.")) if showmsg
       next false
     end
@@ -353,12 +353,12 @@ HiddenMoveHandlers::UseMove.add(:DIVE,proc { |move,pokemon|
     divemap = nil
     meta = pbLoadMetadata
     for i in 0...meta.length
-      if meta[i] && meta[i][MetadataDiveMap] && meta[i][MetadataDiveMap]==$game_map.map_id
+      if meta[i] && meta[i][MapMetadata::DIVE_MAP] && meta[i][MapMetadata::DIVE_MAP]==$game_map.map_id
         divemap = i; break
       end
     end
   else
-    divemap = pbGetMetadata($game_map.map_id,MetadataDiveMap)
+    divemap = pbGetMetadata($game_map.map_id,MapMetadata::DIVE_MAP)
   end
   next false if !divemap
   pbMessage(_INTL("{1} used {2}!",pokemon.name,PBMoves.getName(move)))
@@ -384,7 +384,7 @@ HiddenMoveHandlers::UseMove.add(:DIVE,proc { |move,pokemon|
 #===============================================================================
 HiddenMoveHandlers::CanUseMove.add(:FLASH,proc { |move,pkmn,showmsg|
   next false if !pbCheckHiddenMoveBadge(BADGE_FOR_FLASH,showmsg)
-  if !pbGetMetadata($game_map.map_id,MetadataDarkMap)
+  if !pbGetMetadata($game_map.map_id,MapMetadata::DARK_MAP)
     pbMessage(_INTL("Can't use that here.")) if showmsg
     next false
   end
@@ -424,7 +424,7 @@ HiddenMoveHandlers::CanUseMove.add(:FLY,proc { |move,pkmn,showmsg|
     pbMessage(_INTL("It can't be used when you have someone with you.")) if showmsg
     next false
   end
-  if !pbGetMetadata($game_map.map_id,MetadataOutdoor)
+  if !pbGetMetadata($game_map.map_id,MapMetadata::OUTDOOR)
     pbMessage(_INTL("Can't use that here.")) if showmsg
     next false
   end
@@ -628,7 +628,7 @@ def pbSurf
     speciesname = (movefinder) ? movefinder.name : $Trainer.name
     pbMessage(_INTL("{1} used {2}!",speciesname,PBMoves.getName(move)))
     pbCancelVehicles
-    surfbgm = pbGetMetadata(0,MetadataSurfBGM)
+    surfbgm = pbGetMetadata(0,Metadata::SURF_BGM)
     pbCueBGM(surfbgm,0.5) if surfbgm
     pbStartSurfing
     return true
@@ -681,7 +681,7 @@ end
 
 Events.onAction += proc { |_sender,_e|
   next if $PokemonGlobal.surfing
-  next if pbGetMetadata($game_map.map_id,MetadataBicycleAlways)
+  next if pbGetMetadata($game_map.map_id,MapMetadata::BICYCLE_ALWAYS)
   next if !PBTerrain.isSurfable?(pbFacingTerrainTag)
   next if !$game_map.passable?($game_player.x,$game_player.y,$game_player.direction,$game_player)
   pbSurf
@@ -697,7 +697,7 @@ HiddenMoveHandlers::CanUseMove.add(:SURF,proc { |move,pkmn,showmsg|
     pbMessage(_INTL("It can't be used when you have someone with you.")) if showmsg
     next false
   end
-  if pbGetMetadata($game_map.map_id,MetadataBicycleAlways)
+  if pbGetMetadata($game_map.map_id,MapMetadata::BICYCLE_ALWAYS)
     pbMessage(_INTL("Let's enjoy cycling!")) if showmsg
     next false
   end
@@ -713,7 +713,7 @@ HiddenMoveHandlers::UseMove.add(:SURF,proc { |move,pokemon|
   $game_temp.in_menu = false
   pbCancelVehicles
   pbMessage(_INTL("{1} used {2}!",pokemon.name,PBMoves.getName(move)))
-  surfbgm = pbGetMetadata(0,MetadataSurfBGM)
+  surfbgm = pbGetMetadata(0,Metadata::SURF_BGM)
   pbCueBGM(surfbgm,0.5) if surfbgm
   pbStartSurfing
   next true
@@ -774,12 +774,12 @@ HiddenMoveHandlers::UseMove.add(:SWEETSCENT,proc { |move,pokemon|
 # Teleport
 #===============================================================================
 HiddenMoveHandlers::CanUseMove.add(:TELEPORT,proc { |move,pkmn,showmsg|
-  if !pbGetMetadata($game_map.map_id,MetadataOutdoor)
+  if !pbGetMetadata($game_map.map_id,MapMetadata::OUTDOOR)
     pbMessage(_INTL("Can't use that here.")) if showmsg
     next false
   end
   healing = $PokemonGlobal.healingSpot
-  healing = pbGetMetadata(0,MetadataHome) if !healing   # Home
+  healing = pbGetMetadata(0,Metadata::HOME) if !healing   # Home
   if !healing
     pbMessage(_INTL("Can't use that here.")) if showmsg
     next false
@@ -793,7 +793,7 @@ HiddenMoveHandlers::CanUseMove.add(:TELEPORT,proc { |move,pkmn,showmsg|
 
 HiddenMoveHandlers::ConfirmUseMove.add(:TELEPORT,proc { |move,pkmn|
   healing = $PokemonGlobal.healingSpot
-  healing = pbGetMetadata(0,MetadataHome) if !healing   # Home
+  healing = pbGetMetadata(0,Metadata::HOME) if !healing   # Home
   next false if !healing
   mapname = pbGetMapNameFromId(healing[0])
   next pbConfirmMessage(_INTL("Want to return to the healing spot used last in {1}?",mapname))
@@ -801,7 +801,7 @@ HiddenMoveHandlers::ConfirmUseMove.add(:TELEPORT,proc { |move,pkmn|
 
 HiddenMoveHandlers::UseMove.add(:TELEPORT,proc { |move,pokemon|
   healing = $PokemonGlobal.healingSpot
-  healing = pbGetMetadata(0,MetadataHome) if !healing   # Home
+  healing = pbGetMetadata(0,Metadata::HOME) if !healing   # Home
   next false if !healing
   pbMessage(_INTL("{1} used {2}!",pokemon.name,PBMoves.getName(move)))
   pbFadeOutIn {
