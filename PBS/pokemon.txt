@@ -16892,10 +16892,14 @@ BattlerPlayerX = 0
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerEnemyY = 4
 =======
 BattlerEnemyY = 8
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+>>>>>>> 0caa9fdf (More updates)
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -28372,6 +28376,7 @@ Kind = FIREWORKS
 Pokedex = It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 BattlerEnemyX = 0
 BattlerEnemyY = 4
@@ -28380,6 +28385,11 @@ BattlerPlayerY = 4
 BattlerEnemyX = 0
 BattlerEnemyY = 7
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+BattlerEnemyX = 0
+BattlerEnemyY = 4
+>>>>>>> 0caa9fdf (More updates)
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
@@ -30585,10 +30595,14 @@ Pokedex = It eats snow that piles up on the ground. The more snow it eats, the b
 WildItemUncommon = SNOWBALL
 BattlerPlayerX = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 BattlerPlayerY = -8
 =======
 BattlerPlayerY = 36
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerPlayerY = -8
+>>>>>>> 0caa9fdf (More updates)
 BattlerEnemyX = 0
 BattlerEnemyY = 4
 BattlerShadowX = 0
@@ -31425,6 +31439,9 @@ BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0caa9fdf (More updates)
 #-------------------------------
 [899]
 Name = WYRDEER
@@ -31513,6 +31530,10 @@ Height = 1.8
 Weight = 89.0
 Color = Green
 Shape = 13
+<<<<<<< HEAD
+=======
+RegionalNumbers = 901,901
+>>>>>>> 0caa9fdf (More updates)
 Kind = AXE
 Pokedex = It slashes through grass with its sharp scythes, moving too fast for the human eye to track.
 BattlerPlayerX = 0
@@ -31522,5 +31543,8 @@ BattlerEnemyY = 4
 BattlerShadowX = 0
 BattlerShadowSize = 0
 Evolutions = 
+<<<<<<< HEAD
 =======
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> 0caa9fdf (More updates)

@@ -383,6 +383,9 @@ Color = Blue
 Pokedex = Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.
 #-------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0caa9fdf (More updates)
 [GROWLITHE,1]
 FormName = HISUIAN
 Type1 = FIRE
@@ -390,8 +393,11 @@ Type2 = ROCK
 Height = 0.8
 Weight = 22.7
 #-------------------------------
+<<<<<<< HEAD
 =======
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+>>>>>>> 0caa9fdf (More updates)
 [ALAKAZAM,1]
 FormName = Mega Alakazam
 MegaStone = ALAKAZITE
@@ -1452,15 +1458,23 @@ Color = Green
 Pokedex = Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.
 #-------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0caa9fdf (More updates)
 [BRAVIARY,1]
 FormName = HISUIAN
 Type1 = PSYCHIC
 Type2 = FLYING
 Height = 1.7
 Weight = 43.4
+<<<<<<< HEAD
 #-------------------------------
 =======
 >>>>>>> 9c5e5fa3 (Initial commit)
+=======
+BattlerEnemyY = 4
+#-------------------------------
+>>>>>>> 0caa9fdf (More updates)
 [TORNADUS,1]
 FormName = Therian Forme
 BaseStats = 79,100,80,121,110,90
