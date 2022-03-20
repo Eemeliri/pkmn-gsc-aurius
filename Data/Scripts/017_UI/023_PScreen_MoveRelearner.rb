@@ -106,9 +106,9 @@ class MoveRelearner_Scene
         if moveData
           textpos.push([PBMoves.getName(moveobject),4,yPos,0,
              Color.new(0,0,0),Color.new(255,255,255,0)])
-          if moveData[MOVE_TOTAL_PP]>0
+          if moveData[MoveData::TOTAL_PP]>0
             textpos.push([_INTL("{1}/{2}",
-               moveData[MOVE_TOTAL_PP],moveData[MOVE_TOTAL_PP]),320,yPos,1,#+16
+               moveData[MoveData::TOTAL_PP],moveData[MoveData::TOTAL_PP]),320,yPos,1,#+16
                Color.new(0,0,0),Color.new(255,255,255,0)])
           end
         else
@@ -122,9 +122,9 @@ class MoveRelearner_Scene
        0,172+(@sprites["commands"].index-@sprites["commands"].top_item)*16,
        0,0,320,16])
     selMoveData=movesData[@moves[@sprites["commands"].index]]
-    basedamage=selMoveData[MOVE_BASE_DAMAGE]
-    category=selMoveData[MOVE_CATEGORY]
-    accuracy=selMoveData[MOVE_ACCURACY]
+    basedamage=selMoveData[MoveData::BASE_DAMAGE]
+    category=selMoveData[MoveData::CATEGORY]
+    accuracy=selMoveData[MoveData::ACCURACY]
     textpos.push([_INTL("CATEG"),8,240,0,Color.new(0,0,0),Color.new(255,255,255,0)])
     textpos.push([_INTL("POWER"),120,240,0,Color.new(0,0,0),Color.new(255,255,255,0)])
     textpos.push([basedamage<=1 ? basedamage==1 ? "???" : "---" : sprintf("%d",basedamage),

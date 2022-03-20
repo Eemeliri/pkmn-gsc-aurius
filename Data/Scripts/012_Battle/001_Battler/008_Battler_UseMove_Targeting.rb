@@ -103,7 +103,7 @@ class PokeBattle_Battler
     allySwitched = false
     ally = -1
     user.eachOpposing do |b|
-      next if pbGetMoveData(b.lastMoveUsed,MOVE_FUNCTION_CODE) != "120"
+      next if pbGetMoveData(b.lastMoveUsed,MoveData::FUNCTION_CODE) != "120"
       next if !PBTargets.oneTarget?(move.pbTarget(user))
       next if !hasActiveAbility?(:STALWART) && !hasActiveAbility?(:PROPELLERTAIL) && move.function != "182"
       next if !@battle.choices[b.index][3] == targets

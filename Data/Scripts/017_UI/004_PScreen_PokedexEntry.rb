@@ -139,7 +139,7 @@ class PokemonPokedexInfo_Scene
       @sprites["formback"].setSpeciesBitmap(@species,(@gender==1),@form,false,false,true)
       @sprites["formback"].y = 160
       fSpecies = pbGetFSpeciesFromForm(@species,@form)
-      @sprites["formback"].y += (pbLoadSpeciesMetrics[MetricBattlerPlayerY][fSpecies] || 0)*2
+      @sprites["formback"].y += (pbLoadSpeciesMetrics[SpeciesData::METRIC_PLAYER_Y][fSpecies] || 0)*2
     end
   end
 
@@ -152,7 +152,7 @@ class PokemonPokedexInfo_Scene
       for i in 0...formdata[@species].length
         fSpecies = pbGetFSpeciesFromForm(@species,i)
         formname = pbGetMessage(MessageTypes::FormNames,fSpecies)
-        genderRate = pbGetSpeciesData(@species,i,SpeciesGenderRate)
+        genderRate = pbGetSpeciesData(@species,i,SpeciesData::GENDER_RATE)
         if i==0 || (formname && formname!="")
           multiforms = true if i>0
           case genderRate
@@ -241,8 +241,8 @@ class PokemonPokedexInfo_Scene
       kind = pbGetMessage(MessageTypes::Kinds,@species) if !kind || kind==""
       textpos.push([_INTL("{1}",kind),134,74,0,base,shadow])
       # Write the height and weight
-      height = speciesData[SpeciesHeight] || 1
-      weight = speciesData[SpeciesWeight] || 1
+      height = speciesData[SpeciesData::HEIGHT] || 1
+      weight = speciesData[SpeciesData::WEIGHT] || 1
       if pbGetCountry==0xF4   # If the user is in the United States
         inches = (height/0.254).round
         pounds = (weight/0.45359).round

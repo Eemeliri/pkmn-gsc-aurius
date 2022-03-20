@@ -621,20 +621,20 @@ def pbCompileMoves
       print _INTL("Warning: Physical and special moves can't have a base damage of 0, changing to a Status move.\r\n{1}",FileLineData.linereport)
       lineRecord[6] = 2
     end
-    record[MOVE_ID]            = lineRecord[0]
-    record[MOVE_INTERNAL_NAME] = lineRecord[1]
-    record[MOVE_NAME]          = lineRecord[2]
-    record[MOVE_FUNCTION_CODE] = lineRecord[3]
-    record[MOVE_BASE_DAMAGE]   = lineRecord[4]
-    record[MOVE_TYPE]          = lineRecord[5]
-    record[MOVE_CATEGORY]      = lineRecord[6]
-    record[MOVE_ACCURACY]      = lineRecord[7]
-    record[MOVE_TOTAL_PP]      = lineRecord[8]
-    record[MOVE_EFFECT_CHANCE] = lineRecord[9]
-    record[MOVE_TARGET]        = lineRecord[10]
-    record[MOVE_PRIORITY]      = lineRecord[11]
-    record[MOVE_FLAGS]         = lineRecord[12]
-    record[MOVE_DESCRIPTION]   = lineRecord[13]
+    record[MoveData::ID]            = lineRecord[0]
+    record[MoveData::INTERNAL_NAME] = lineRecord[1]
+    record[MoveData::NAME]          = lineRecord[2]
+    record[MoveData::FUNCTION_CODE] = lineRecord[3]
+    record[MoveData::BASE_DAMAGE]   = lineRecord[4]
+    record[MoveData::TYPE]          = lineRecord[5]
+    record[MoveData::CATEGORY]      = lineRecord[6]
+    record[MoveData::ACCURACY]      = lineRecord[7]
+    record[MoveData::TOTAL_PP]      = lineRecord[8]
+    record[MoveData::EFFECT_CHANCE] = lineRecord[9]
+    record[MoveData::TARGET]        = lineRecord[10]
+    record[MoveData::PRIORITY]      = lineRecord[11]
+    record[MoveData::FLAGS]         = lineRecord[12]
+    record[MoveData::DESCRIPTION]   = lineRecord[13]
     maxValue = [maxValue,lineRecord[0]].max
     count += 1
     moveNames[lineRecord[0]] = lineRecord[2]    # Name
@@ -646,7 +646,7 @@ def pbCompileMoves
   MessageTypes.setMessages(MessageTypes::MoveDescriptions,moveDescs)
   code = "class PBMoves\r\n"
   for rec in records
-    code += "#{rec[MOVE_INTERNAL_NAME]}=#{rec[MOVE_ID]}\r\n" if rec
+    code += "#{rec[MoveData::INTERNAL_NAME]}=#{rec[MoveData::ID]}\r\n" if rec
   end
   code += "def self.getName(id)\r\n"
   code += "id=getID(PBMoves,id)\r\n"
@@ -713,8 +713,8 @@ end
 #===============================================================================
 def pbCompilePokemonData
   # Get schemas.
-  requiredValues = PokemonSpeciesData.requiredValues
-  optionalValues = PokemonSpeciesData.optionalValues
+  requiredValues = SpeciesData.requiredValues
+  optionalValues = SpeciesData.optionalValues
   # Prepare arrays for compiled data.
   speciesData    = []
   movesets       = []
@@ -854,7 +854,7 @@ def pbCompilePokemonData
   save_data(regionalDexes,"Data/regional_dexes.dat")
   # Save metrics data.
   for i in 0...7
-    defaultValue = (i==MetricBattlerShadowSize) ? 2 : 0   # Shadow size 2, other metrics 0
+    defaultValue = (i==SpeciesData::METRIC_SHADOW_SIZE) ? 2 : 0   # Shadow size 2, other metrics 0
     for j in 0..maxValue
       spriteMetrics[i] = [] if !spriteMetrics[i]
       spriteMetrics[i][j] ||= defaultValue
@@ -910,8 +910,8 @@ end
 #===============================================================================
 def pbCompilePokemonForms
   # Get schemas.
-  requiredValues = PokemonSpeciesData.requiredValues(true)
-  optionalValues = PokemonSpeciesData.optionalValues(true)
+  requiredValues = SpeciesData.requiredValues(true)
+  optionalValues = SpeciesData.optionalValues(true)
   # Prepare arrays for compiled data.
   speciesData    = pbLoadSpeciesData
   movesets       = []
@@ -981,9 +981,9 @@ def pbCompilePokemonForms
       if (contents["WildItemCommon"] && contents["WildItemCommon"]!="") ||
          (contents["WildItemUncommon"] && contents["WildItemUncommon"]!="") ||
          (contents["WildItemRare"] && contents["WildItemRare"]!="")
-        speciesData[speciesID][SpeciesWildItemCommon]   = nil
-        speciesData[speciesID][SpeciesWildItemUncommon] = nil
-        speciesData[speciesID][SpeciesWildItemRare]     = nil
+        speciesData[speciesID][SpeciesData::WILD_ITEM_COMMON]   = nil
+        speciesData[speciesID][SpeciesData::WILD_ITEM_UNCOMMON] = nil
+        speciesData[speciesID][SpeciesData::WILD_ITEM_RARE]     = nil
       end
       # Go through hashes of compilable data and compile this section.
       [requiredValues,optionalValues].each do |hash|
@@ -1066,7 +1066,7 @@ def pbCompilePokemonForms
   # Inherit base form metrics data.
   newSpriteMetrics = pbLoadSpeciesMetrics
   for i in 0...7
-    defaultValue = (i==MetricBattlerShadowSize) ? 2 : 0   # Shadow size 2, other metrics 0
+    defaultValue = (i==SpeciesData::METRIC_SHADOW_SIZE) ? 2 : 0   # Shadow size 2, other metrics 0
     pbAppendToBaseFormData(PBSpecies.maxValue+1,maxValue,newSpriteMetrics[i],
        spriteMetrics[i] || [],speciesToForm,false,defaultValue)
   end
@@ -1409,7 +1409,7 @@ end
 # Compile individual trainers
 #===============================================================================
 def pbCompileTrainers
-  trainer_info_types = TrainersMetadata::InfoTypes
+  trainer_info_types = TrainerData::SCHEMA
   mLevel = PBExperience.maxLevel
   trainerindex    = -1
   trainers        = []
@@ -1502,8 +1502,8 @@ def pbCompileTrainers
       when "Pokemon"
         pokemonindex += 1
         trainers[trainerindex][3][pokemonindex] = []
-        trainers[trainerindex][3][pokemonindex][TPSPECIES] = record[0]
-        trainers[trainerindex][3][pokemonindex][TPLEVEL]   = record[1]
+        trainers[trainerindex][3][pokemonindex][TrainerData::SPECIES] = record[0]
+        trainers[trainerindex][3][pokemonindex][TrainerData::LEVEL]   = record[1]
       else
         if pokemonindex<0
           raise _INTL("Pokémon hasn't been defined yet!\r\n{1}",FileLineData.linereport)
@@ -1553,29 +1553,29 @@ def pbCompileTrainers
         for i in 0...record.length
           next if record[i]==nil
           case i
-          when TPLEVEL
+          when TrainerData::LEVEL
             if record[i]>mLevel
               raise _INTL("Bad level: {1} (must be 1-{2})\r\n{3}",record[i],mLevel,FileLineData.linereport)
             end
-          when TPABILITY+3
+          when TrainerData::ABILITY+3
             if record[i]>5
               raise _INTL("Bad ability flag: {1} (must be 0 or 1 or 2-5)\r\n{2}",record[i],FileLineData.linereport)
             end
-          when TPIV+3
+          when TrainerData::IV+3
             if record[i]>31
               raise _INTL("Bad IV: {1} (must be 0-31)\r\n{2}",record[i],FileLineData.linereport)
             end
             record[i] = [record[i]]
-          when TPEV+3
+          when TrainerData::EV+3
             if record[i]>PokeBattle_Pokemon::EV_STAT_LIMIT
               raise _INTL("Bad EV: {1} (must be 0-{2})\r\n{3}",record[i],PokeBattle_Pokemon::EV_STAT_LIMIT,FileLineData.linereport)
             end
             record[i] = [record[i]]
-          when TPHAPPINESS+3
+          when TrainerData::HAPPINESS+3
             if record[i]>255
               raise _INTL("Bad happiness: {1} (must be 0-255)\r\n{2}",record[i],FileLineData.linereport)
             end
-          when TPNAME+3
+          when TrainerData::NAME+3
             if record[i].length>PokeBattle_Pokemon::MAX_POKEMON_NAME_SIZE
               raise _INTL("Bad nickname: {1} (must be 1-{2} characters)\r\n{3}",record[i],PokeBattle_Pokemon::MAX_POKEMON_NAME_SIZE,FileLineData.linereport)
             end
@@ -1584,13 +1584,13 @@ def pbCompileTrainers
         # Write data to trainer array
         for i in 0...record.length
           next if record[i]==nil
-          if i>=TPMOVES && i<TPMOVES+4
-            if !trainers[trainerindex][3][pokemonindex][TPMOVES]
-              trainers[trainerindex][3][pokemonindex][TPMOVES] = []
+          if i>=TrainerData::MOVES && i<TrainerData::MOVES+4
+            if !trainers[trainerindex][3][pokemonindex][TrainerData::MOVES]
+              trainers[trainerindex][3][pokemonindex][TrainerData::MOVES] = []
             end
-            trainers[trainerindex][3][pokemonindex][TPMOVES].push(record[i])
+            trainers[trainerindex][3][pokemonindex][TrainerData::MOVES].push(record[i])
           else
-            d = (i>=TPMOVES+4) ? i-3 : i
+            d = (i>=TrainerData::MOVES+4) ? i-3 : i
             trainers[trainerindex][3][pokemonindex][d] = record[i]
           end
         end

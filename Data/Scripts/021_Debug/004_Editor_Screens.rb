@@ -458,7 +458,7 @@ def pbTrainerBattleEditor
              data[0],
              data[1],
              [data[10],data[11],data[12],data[13],data[14],data[15],data[16],data[17]].find_all { |i| i && i!=0 },   # Item list
-             [data[4],data[5],data[6],data[7],data[8],data[9]].find_all { |i| i && i[TPSPECIES]!=0 },   # Pokémon list
+             [data[4],data[5],data[6],data[7],data[8],data[9]].find_all { |i| i && i[TrainerData::SPECIES]!=0 },   # Pokémon list
              data[2],
              data[3]
           ]
@@ -491,10 +491,10 @@ module TrainerPokemonProperty
   def self.set(settingname,initsetting)
     initsetting = [0,10] if !initsetting
     oldsetting = []
-    for i in 0...TPEV
-      if i==TPMOVES
+    for i in 0...TrainerData::EV
+      if i==TrainerData::MOVES
         for j in 0...4
-          oldsetting.push((initsetting[TPMOVES]) ? initsetting[TPMOVES][j] : nil)
+          oldsetting.push((initsetting[TrainerData::MOVES]) ? initsetting[TrainerData::MOVES][j] : nil)
         end
       else
         oldsetting.push(initsetting[i])
@@ -522,27 +522,27 @@ module TrainerPokemonProperty
        [_INTL("EVs"),EVsProperty.new(PokeBattle_Pokemon::EV_STAT_LIMIT),_INTL("Effort values for each of the Pokémon's stats.")]
     ]
     pbPropertyList(settingname,oldsetting,properties,false)
-    return nil if !oldsetting[TPSPECIES] || oldsetting[TPSPECIES]==0
+    return nil if !oldsetting[TrainerData::SPECIES] || oldsetting[TrainerData::SPECIES]==0
     ret = []
     moves = []
     for i in 0...oldsetting.length
-      if i>=TPMOVES && i<TPMOVES+4
-        ret.push(nil) if i==TPMOVES
+      if i>=TrainerData::MOVES && i<TrainerData::MOVES+4
+        ret.push(nil) if i==TrainerData::MOVES
         moves.push(oldsetting[i])
       else
         ret.push(oldsetting[i])
       end
     end
     moves.compact!
-    ret[TPMOVES] = moves if moves.length>0
+    ret[TrainerData::MOVES] = moves if moves.length>0
     # Remove unnecessarily nils from the end of ret
     ret.pop while ret.last.nil? && ret.size>0
     return ret
   end
 
   def self.format(value)
-    return "-" if !value || !value[TPSPECIES] || value[TPSPECIES]<=0
-    return sprintf("%s,%d",PBSpecies.getName(value[TPSPECIES]),value[TPLEVEL])
+    return "-" if !value || !value[TrainerData::SPECIES] || value[TrainerData::SPECIES]<=0
+    return sprintf("%s,%d",PBSpecies.getName(value[TrainerData::SPECIES]),value[TrainerData::LEVEL])
   end
 end
 
@@ -836,7 +836,7 @@ def pbPokemonEditor
           entry       = messages.get(MessageTypes::Entries,selection)
           cname       = getConstantName(PBSpecies,selection) rescue sprintf("POKE%03d",selection)
           formname    = messages.get(MessageTypes::FormNames,selection)
-          abilities = speciesData[SpeciesAbilities]
+          abilities = speciesData[SpeciesData::ABILITIES]
           if abilities.is_a?(Array)
             ability1       = abilities[0]
             ability2       = abilities[1]
@@ -844,20 +844,20 @@ def pbPokemonEditor
             ability1       = abilities
             ability2       = nil
           end
-          color            = speciesData[SpeciesColor]
-          habitat          = speciesData[SpeciesHabitat]
-          type1            = speciesData[SpeciesType1]
-          type2            = speciesData[SpeciesType2]
+          color            = speciesData[SpeciesData::COLOR]
+          habitat          = speciesData[SpeciesData::HABITAT]
+          type1            = speciesData[SpeciesData::TYPE1]
+          type2            = speciesData[SpeciesData::TYPE2]
           type2            = nil if type2==type1
-          baseStats        = speciesData[SpeciesBaseStats].clone if speciesData[SpeciesBaseStats]
-          rareness         = speciesData[SpeciesRareness]
-          shape            = speciesData[SpeciesShape]
-          genderrate       = speciesData[SpeciesGenderRate]
-          happiness        = speciesData[SpeciesHappiness]
-          growthrate       = speciesData[SpeciesGrowthRate]
-          stepstohatch     = speciesData[SpeciesStepsToHatch]
-          effort           = speciesData[SpeciesEffortPoints].clone if speciesData[SpeciesEffortPoints]
-          compats = speciesData[SpeciesCompatibility]
+          baseStats        = speciesData[SpeciesData::BASE_STATS].clone if speciesData[SpeciesData::BASE_STATS]
+          rareness         = speciesData[SpeciesData::RARENESS]
+          shape            = speciesData[SpeciesData::SHAPE]
+          genderrate       = speciesData[SpeciesData::GENDER_RATE]
+          happiness        = speciesData[SpeciesData::HAPPINESS]
+          growthrate       = speciesData[SpeciesData::GROWTH_RATE]
+          stepstohatch     = speciesData[SpeciesData::STEPS_TO_HATCH]
+          effort           = speciesData[SpeciesData::EFFORT_POINTS].clone if speciesData[SpeciesData::EFFORT_POINTS]
+          compats = speciesData[SpeciesData::COMPATIBILITY]
           if compats.is_a?(Array)
             compat1        = compats[0]
             compat2        = compats[1]
@@ -865,10 +865,10 @@ def pbPokemonEditor
             compat1        = compats
             compat2        = nil
           end
-          height           = speciesData[SpeciesHeight]
-          weight           = speciesData[SpeciesWeight]
-          baseexp          = speciesData[SpeciesBaseExp]
-          hiddenAbils = speciesData[SpeciesHiddenAbility]
+          height           = speciesData[SpeciesData::HEIGHT]
+          weight           = speciesData[SpeciesData::WEIGHT]
+          baseexp          = speciesData[SpeciesData::BASE_EXP]
+          hiddenAbils = speciesData[SpeciesData::HIDDEN_ABILITY]
           if hiddenAbils.is_a?(Array)
             hiddenability1 = hiddenAbils[0]
             hiddenability2 = hiddenAbils[1]
@@ -880,10 +880,10 @@ def pbPokemonEditor
             hiddenability3 = nil
             hiddenability4 = nil
           end
-          item1            = speciesData[SpeciesWildItemCommon]
-          item2            = speciesData[SpeciesWildItemUncommon]
-          item3            = speciesData[SpeciesWildItemRare]
-          incense          = speciesData[SpeciesIncense]
+          item1            = speciesData[SpeciesData::WILD_ITEM_COMMON]
+          item2            = speciesData[SpeciesData::WILD_ITEM_UNCOMMON]
+          item3            = speciesData[SpeciesData::WILD_ITEM_RARE]
+          incense          = speciesData[SpeciesData::INCENSE]
           originalMoveset = pbGetSpeciesMoveset(selection)
           movelist = []
           originalMoveset.each_with_index { |m,i| movelist.push([m[0],m[1],i]) }
@@ -939,7 +939,7 @@ def pbPokemonEditor
           for i in 0...6
             data.push(metrics[i][selection] || 0)   # 34, 35, 36, 37, 38, 39
           end
-          data.push(metrics[MetricBattlerShadowSize][selection] || 2)   # 40
+          data.push(metrics[SpeciesData::METRIC_SHADOW_SIZE][selection] || 2)   # 40
           data.push(evolutions)                     # 41
           data.push(incense)                        # 42
           # Edit the properties
@@ -966,28 +966,28 @@ def pbPokemonEditor
             end
             hiddenAbils = hiddenAbils[0] if !shouldArray
             # Save data
-            speciesData[SpeciesAbilities]        = abils
-            speciesData[SpeciesColor]            = data[24]
-            speciesData[SpeciesHabitat]          = data[26]
-            speciesData[SpeciesType1]            = data[2]
-            speciesData[SpeciesType2]            = data[3]
-            speciesData[SpeciesBaseStats]        = data[4]
-            speciesData[SpeciesRareness]         = data[9]
-            speciesData[SpeciesShape]            = data[25]
-            speciesData[SpeciesGenderRate]       = data[5]
-            speciesData[SpeciesHappiness]        = data[10]
-            speciesData[SpeciesGrowthRate]       = data[6]
-            speciesData[SpeciesStepsToHatch]     = data[21]
-            speciesData[SpeciesEffortPoints]     = data[8]
-            speciesData[SpeciesCompatibility]    = compats
-            speciesData[SpeciesHeight]           = data[22]
-            speciesData[SpeciesWeight]           = data[23]
-            speciesData[SpeciesBaseExp]          = data[7]
-            speciesData[SpeciesHiddenAbility]    = hiddenAbils
-            speciesData[SpeciesWildItemCommon]   = data[31]
-            speciesData[SpeciesWildItemUncommon] = data[32]
-            speciesData[SpeciesWildItemRare]     = data[33]
-            speciesData[SpeciesIncense]          = data[42]
+            speciesData[SpeciesData::ABILITIES]          = abils
+            speciesData[SpeciesData::COLOR]              = data[24]
+            speciesData[SpeciesData::HABITAT]            = data[26]
+            speciesData[SpeciesData::TYPE1]              = data[2]
+            speciesData[SpeciesData::TYPE2]              = data[3]
+            speciesData[SpeciesData::BASE_STATS]         = data[4]
+            speciesData[SpeciesData::RARENESS]           = data[9]
+            speciesData[SpeciesData::SHAPE]              = data[25]
+            speciesData[SpeciesData::GENDER_RATE]        = data[5]
+            speciesData[SpeciesData::HAPPINESS]          = data[10]
+            speciesData[SpeciesData::GROWTH_RATE]        = data[6]
+            speciesData[SpeciesData::STEPS_TO_HATCH]     = data[21]
+            speciesData[SpeciesData::EFFORT_POINTS]      = data[8]
+            speciesData[SpeciesData::COMPATIBILITY]      = compats
+            speciesData[SpeciesData::HEIGHT]             = data[22]
+            speciesData[SpeciesData::WEIGHT]             = data[23]
+            speciesData[SpeciesData::BASE_EXP]           = data[7]
+            speciesData[SpeciesData::HIDDEN_ABILITY]     = hiddenAbils
+            speciesData[SpeciesData::WILD_ITEM_COMMON]   = data[31]
+            speciesData[SpeciesData::WILD_ITEM_UNCOMMON] = data[32]
+            speciesData[SpeciesData::WILD_ITEM_RARE]     = data[33]
+            speciesData[SpeciesData::INCENSE]            = data[42]
             save_data(pbLoadSpeciesData,"Data/species.dat")
             namearray  = []
             kindarray  = []

@@ -1133,7 +1133,7 @@ class PokeBattle_Move_0AE < PokeBattle_Move
 
   def pbFailsAgainstTarget?(user,target)
     if target.lastRegularMoveUsed<=0 ||
-       !pbGetMoveData(target.lastRegularMoveUsed,MOVE_FLAGS)[/e/]   # Not copyable by Mirror Move
+       !pbGetMoveData(target.lastRegularMoveUsed,MoveData::FLAGS)[/e/]   # Not copyable by Mirror Move
       @battle.pbDisplay(_INTL("The mirror move failed!"))
       return true
     end
@@ -1225,7 +1225,7 @@ class PokeBattle_Move_0AF < PokeBattle_Move
 
   def pbMoveFailed?(user,targets)
     if @battle.lastMoveUsed<=0 ||
-       @moveBlacklist.include?(pbGetMoveData(@battle.lastMoveUsed,MOVE_FUNCTION_CODE))
+       @moveBlacklist.include?(pbGetMoveData(@battle.lastMoveUsed,MoveData::FUNCTION_CODE))
       @battle.pbDisplay(_INTL("But it failed!"))
       return true
     end
@@ -1570,7 +1570,7 @@ class PokeBattle_Move_0B5 < PokeBattle_Move
       next if NEWEST_BATTLE_MECHANICS && pkmn.egg?
       pkmn.moves.each do |move|
         next if !move || move.id<=0
-        next if @moveBlacklist.include?(pbGetMoveData(move.id,MOVE_FUNCTION_CODE))
+        next if @moveBlacklist.include?(pbGetMoveData(move.id,MoveData::FUNCTION_CODE))
         next if isConst?(move.type,PBTypes,:SHADOW)
         @assistMoves.push(move.id)
       end
@@ -1689,14 +1689,14 @@ class PokeBattle_Move_0B6 < PokeBattle_Move
     1000.times do
       move = @battle.pbRandom(PBMoves.maxValue)+1   # Random move
       next if !movesData[move]
-      next if @moveBlacklist.include?(movesData[move][MOVE_FUNCTION_CODE])
+      next if @moveBlacklist.include?(movesData[move][MoveData::FUNCTION_CODE])
       blMove = false
       @moveBlacklistSignatures.each do |m|
         next if !isConst?(move,PBMoves,m)
         blMove = true; break
       end
       next if blMove
-      next if isConst?(movesData[move][MOVE_TYPE],PBTypes,:SHADOW)
+      next if isConst?(movesData[move][MoveData::TYPE],PBTypes,:SHADOW)
       @metronomeMove = move
       break
     end
@@ -1892,7 +1892,7 @@ class PokeBattle_Move_0BC < PokeBattle_Move
       return true
     end
     if target.lastRegularMoveUsed<=0 ||
-       @moveBlacklist.include?(pbGetMoveData(target.lastRegularMoveUsed,MOVE_FUNCTION_CODE))
+       @moveBlacklist.include?(pbGetMoveData(target.lastRegularMoveUsed,MoveData::FUNCTION_CODE))
       @battle.pbDisplay(_INTL("But it failed!"))
       return true
     end
@@ -3619,9 +3619,9 @@ class PokeBattle_Move_0F7 < PokeBattle_Move
   def pbBaseDamage(baseDmg,user,target)
 	if pbIsTechnicalRecord?(user.item)
 		movedata = pbGetMoveData(pbGetMachine(user.item))
-		return 10 if movedata[MOVE_CATEGORY] == 2 # status move
-		return 10 if movedata[MOVE_BASE_DAMAGE] < 10
-		return movedata[MOVE_BASE_DAMAGE]
+		return 10 if movedata[MoveData::CATEGORY] == 2 # status move
+		return 10 if movedata[MoveData::BASE_DAMAGE] < 10
+		return movedata[MoveData::BASE_DAMAGE]
 	end
     return 10 if pbIsBerry?(user.item)
     return 80 if pbIsMegaStone?(user.item)

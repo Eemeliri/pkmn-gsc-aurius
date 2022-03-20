@@ -139,12 +139,12 @@ class PokeBattle_Pokemon
 
   # Returns this Pokémon's growth rate.
   def growthrate
-    return pbGetSpeciesData(@species,formSimple,SpeciesGrowthRate)
+    return pbGetSpeciesData(@species, formSimple, SpeciesData::GROWTH_RATE)
   end
 
   # Returns this Pokémon's base Experience value.
   def baseExp
-    return pbGetSpeciesData(@species,formSimple,SpeciesBaseExp)
+    return pbGetSpeciesData(@species, formSimple, SpeciesData::BASE_EXP)
   end
 
   # Returns a number between 0 and 1 indicating how much of the current level's
@@ -164,7 +164,7 @@ class PokeBattle_Pokemon
   # Returns this Pokémon's gender. 0=male, 1=female, 2=genderless
   def gender
     # Return sole gender option for all male/all female/genderless species
-    genderRate = pbGetSpeciesData(@species,formSimple,SpeciesGenderRate)
+    gender_rate = pbGetSpeciesData(@species, formSimple, SpeciesData::GENDER_RATE)
     case genderRate
     when PBGenderRates::AlwaysMale;   return 0
     when PBGenderRates::AlwaysFemale; return 1
@@ -178,7 +178,7 @@ class PokeBattle_Pokemon
   # Returns whether this Pokémon species is restricted to only ever being one
   # gender (or genderless).
   def singleGendered?
-    genderRate = pbGetSpeciesData(@species,formSimple,SpeciesGenderRate)
+    gender_rate = pbGetSpeciesData(@species, formSimple, SpeciesData::GENDER_RATE)
     return genderRate==PBGenderRates::AlwaysMale ||
            genderRate==PBGenderRates::AlwaysFemale ||
            genderRate==PBGenderRates::Genderless
@@ -224,7 +224,7 @@ class PokeBattle_Pokemon
     abilIndex = abilityIndex
     # Hidden ability
     if abilIndex>=2
-      hiddenAbil = pbGetSpeciesData(@species,formSimple,SpeciesHiddenAbility)
+      hiddenAbil = pbGetSpeciesData(@species, formSimple, SpeciesData::HIDDEN_ABILITY)
       if hiddenAbil.is_a?(Array)
         ret = hiddenAbil[abilIndex-2]
         return ret if ret && ret>0
@@ -234,7 +234,7 @@ class PokeBattle_Pokemon
       abilIndex = (@personalID&1)
     end
     # Natural ability
-    abilities = pbGetSpeciesData(@species,formSimple,SpeciesAbilities)
+    abilities = pbGetSpeciesData(@species, formSimple, SpeciesData::ABILITIES)
     if abilities.is_a?(Array)
       ret = abilities[abilIndex]
       ret = abilities[(abilIndex+1)%2] if !ret || ret==0
@@ -263,13 +263,13 @@ class PokeBattle_Pokemon
   # Returns the list of abilities this Pokémon can have.
   def getAbilityList
     ret = []
-    abilities = pbGetSpeciesData(@species,formSimple,SpeciesAbilities)
+    abilities = pbGetSpeciesData(@species, formSimple, SpeciesData::ABILITIES)
     if abilities.is_a?(Array)
       abilities.each_with_index { |a,i| ret.push([a,i]) if a && a>0 }
     else
       ret.push([abilities,0]) if abilities>0
     end
-    hiddenAbil = pbGetSpeciesData(@species,formSimple,SpeciesHiddenAbility)
+    hiddenAbil = pbGetSpeciesData(@species, formSimple, SpeciesData::HIDDEN_ABILITY)
     if hiddenAbil.is_a?(Array)
       hiddenAbil.each_with_index { |a,i| ret.push([a,i+2]) if a && a>0 }
     else
@@ -374,19 +374,19 @@ class PokeBattle_Pokemon
   #=============================================================================
   # Returns this Pokémon's first type.
   def type1
-    return pbGetSpeciesData(@species,formSimple,SpeciesType1)
+    return pbGetSpeciesData(@species, formSimple, SpeciesData::TYPE1)
   end
 
   # Returns this Pokémon's second type.
   def type2
-    ret = pbGetSpeciesData(@species,formSimple,SpeciesType2)
-    ret = pbGetSpeciesData(@species,formSimple,SpeciesType1) if !ret
+    ret = pbGetSpeciesData(@species, formSimple, SpeciesData::TYPE2)
+    ret = pbGetSpeciesData(@species, formSimple, SpeciesData::TYPE1) if !ret
     return ret
   end
 
   def types
-    ret1 = pbGetSpeciesData(@species,formSimple,SpeciesType1)
-    ret2 = pbGetSpeciesData(@species,formSimple,SpeciesType2)
+    ret1 = pbGetSpeciesData(@species, formSimple, SpeciesData::TYPE1)
+    ret2 = pbGetSpeciesData(@species, formSimple, SpeciesData::TYPE2)
     ret = [ret1]
     ret.push(ret2) if ret2 && ret2!=ret1
     return ret
@@ -615,9 +615,9 @@ class PokeBattle_Pokemon
   # Returns the items this species can be found holding in the wild.
   def wildHoldItems
     ret = []
-    ret.push(pbGetSpeciesData(@species,formSimple,SpeciesWildItemCommon))
-    ret.push(pbGetSpeciesData(@species,formSimple,SpeciesWildItemUncommon))
-    ret.push(pbGetSpeciesData(@species,formSimple,SpeciesWildItemRare))
+    ret.push(pbGetSpeciesData(@species, formSimple, SpeciesData::WILD_ITEM_COMMON))
+    ret.push(pbGetSpeciesData(@species, formSimple, SpeciesData::WILD_ITEM_UNCOMMON))
+    ret.push(pbGetSpeciesData(@species, formSimple, SpeciesData::WILD_ITEM_RARE))
     return ret
   end
 
@@ -673,12 +673,12 @@ class PokeBattle_Pokemon
 
   # Returns the height of this Pokémon.
   def height
-    return pbGetSpeciesData(@species,formSimple,SpeciesHeight)
+    return pbGetSpeciesData(@species, formSimple, SpeciesData::HEIGHT)
   end
 
   # Returns the weight of this Pokémon.
   def weight
-    return pbGetSpeciesData(@species,formSimple,SpeciesWeight)
+    return pbGetSpeciesData(@species, formSimple, SpeciesData::WEIGHT)
   end
 
   # Returns an array of booleans indicating whether a stat is made to have
@@ -699,7 +699,7 @@ class PokeBattle_Pokemon
 
   # Returns the EV yield of this Pokémon.
   def evYield
-    ret = pbGetSpeciesData(@species,formSimple,SpeciesEffortPoints)
+    ret = pbGetSpeciesData(@species, formSimple, SpeciesData::EFFORT_POINTS)
     return ret.clone
   end
 
@@ -829,7 +829,7 @@ class PokeBattle_Pokemon
 
   # Returns this Pokémon's base stats. An array of six values.
   def baseStats
-    ret = pbGetSpeciesData(@species,formSimple,SpeciesBaseStats)
+    ret = pbGetSpeciesData(@species, formSimple, SpeciesData::BASE_STATS)
     return ret.clone
   end
 
@@ -938,7 +938,7 @@ class PokeBattle_Pokemon
     self.level    = level
     calcStats
     @hp           = @totalhp
-    @happiness    = pbGetSpeciesData(@species,formSimple,SpeciesHappiness)
+    happiness    = pbGetSpeciesData(@species, formSimple, SpeciesData::HAPPINESS)
     if withMoves
       self.resetMoves
     else

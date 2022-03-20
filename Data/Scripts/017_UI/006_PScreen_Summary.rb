@@ -526,10 +526,10 @@ class PokemonSummary_Scene
      @sprites["itemicon"].visible  = false if @sprites["itemicon"]
     # Get data for selected move
     moveData   = pbGetMoveData(moveid)
-    basedamage = moveData[MOVE_BASE_DAMAGE]
-    #type       = moveData[MOVE_TYPE]
-    category   = moveData[MOVE_CATEGORY]
-    accuracy   = moveData[MOVE_ACCURACY]
+    basedamage = moveData[MoveData::BASE_DAMAGE]
+    #type       = moveData[MoveData::TYPE]
+    category   = moveData[MoveData::CATEGORY]
+    accuracy   = moveData[MoveData::ACCURACY]
     move = moveid
     textpos = []
     # Write power value for selected move
@@ -634,10 +634,10 @@ class PokemonSummary_Scene
     pbSetSystemFont(overlay2)
     # Get data for selected move
     movedata   = pbGetMoveData(moveid)
-    basedamage = moveData[MOVE_BASE_DAMAGE]
-    #type       = moveData[MOVE_TYPE]
-    category   = moveData[MOVE_CATEGORY]
-    accuracy   = moveData[MOVE_ACCURACY]
+    basedamage = moveData[MoveData::BASE_DAMAGE]
+    #type       = moveData[MoveData::TYPE]
+    category   = moveData[MoveData::CATEGORY]
+    accuracy   = moveData[MoveData::ACCURACY]
     move = moveid
     textpos = []
     textpos.push([abilityname,10,10,308,base]) #ability name
