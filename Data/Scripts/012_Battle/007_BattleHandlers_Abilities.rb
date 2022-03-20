@@ -1858,7 +1858,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:BEASTBOOST,
     targets.each { |b| numFainted += 1 if b.damageState.fainted }
     next if numFainted==0
     userStats = user.plainStats
-    highestStatValue = userStats.max
+    highestStatValue = userStats.compact.max
     PBStats.eachMainBattleStat do |s|
       next if userStats[s]<highestStatValue
       if user.pbCanRaiseStatStage?(s,user)
